@@ -1,0 +1,13 @@
+#main {
+    height: 100%;
+    background-image: url("../../../assets/pile_logs_1920x1980.jpg"); 
+    /* While background image is loading - this color will show */
+    background-color: #cccccc;
+    /* Center Vertically and horizontly image */
+    background-position: center center;
+    /* Background do not tile */
+    background-attachment: fixed;
+    /* Image will rescale based on container size */
+    background-size: cover;
+}
+

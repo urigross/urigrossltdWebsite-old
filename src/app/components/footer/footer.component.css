@@ -1,0 +1,9 @@
+h1{
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Futura';
+    color: black;
+    text-shadow: 0 0 3px #fff, 0 0 7px #fff, 0 0 15px black, 0 0 25px #020202, 0 0 35px #020202, 0 0 45px #020202, 0 0 60px #020202, 0 0 85px #020202, 0 0 110px #020202, 0 0 145px #020202;
+    text-align: center;
+    }
+
