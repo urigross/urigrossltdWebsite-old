@@ -1,0 +1,30 @@
+
+a,.the-chosen-one{
+    padding-left: 15x;
+    padding-right: 15px;
+    padding-top: 0px;
+    font-size: 20px;
+
+}
+a, p {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(4, 78, 16, 0.74);
+    
+
+}
+
+.the-chosen-one {
+    
+        color: rgb(13, 189, 48);
+        /* text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 20px  rgb(255, 255, 255), 0 0 30px  rgb(255, 255, 255)   , 0 0 40px rgb(255, 255, 255), 0 0 55px rgb(255, 255, 255), 0 0 75px rgb(255, 255, 255); */
+        text-shadow: 0 0 3px #fff, 0 0 7px #fff, 0 0 15px rgb(13, 189, 48), 0 0 25px rgb(13, 189, 48), 0 0 35px rgb(13, 189, 48), 0 0 45px rgb(13, 189, 48), 0 0 60px rgb(13, 189, 48), 0 0 85px rgb(13, 189, 48), 0 0 110px rgb(13, 189, 48), 0 0 145px rgb(13, 189, 48);
+
+        text-align: center;
+        
+}
+
+img{
+    padding-right: 10px;
+}
+

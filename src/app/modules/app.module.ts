@@ -12,6 +12,7 @@ import { ProductsHebComponent } from '../components/products-heb/products-heb.co
 import { GooglemapComponent } from '../components/googlemap/googlemap.component';
 import { WazeComponent } from '../components/waze/waze.component';
 import { MenuHebComponent } from '../components/menu-heb/menu-heb.component';
+import { MenuComponent } from '../components/menu/menu.component';
 import { RoutingModule } from './routing.module';
 import { RouterModule } from '@angular/router';
 import { Page404Component } from '../components/page404/page404.component';
@@ -20,6 +21,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
+import { UgltdLogoHebComponent } from '../components/ugltd-logo-heb/ugltd-logo-heb.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { MatInputModule } from '@angular/material/input';
     GooglemapComponent,
     WazeComponent,
     MenuHebComponent,
-    Page404Component
+    MenuComponent,
+    Page404Component,
+    UgltdLogoHebComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
-#main {
+.section {
     height: 100%;
+    width: 100%;
     background-image: url("../../../assets/pile_logs_1920x1980.jpg"); 
     /* While background image is loading - this color will show */
     background-color: #cccccc;
@@ -11,3 +12,13 @@
     background-size: cover;
 }
 
+#nav{
+    position: fixed;
+    line-height: 100px;
+    margin-top: 10px;
+ 
+}
+
+.logo{
+    padding-right: 500px;
+}
