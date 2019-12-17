@@ -1,8 +1,16 @@
 #main {
-    height :877px;
+    height :510px;
 }
 
 #footer {
     background: black;
     height: 60px;
 }
+.nav{
+    position: fixed;
+    margin-top: 5px;
+    width: 100%;
+    line-height: 140px;
+ 
+}
+

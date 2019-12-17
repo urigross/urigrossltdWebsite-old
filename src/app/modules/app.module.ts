@@ -21,7 +21,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
-import { UgltdLogoHebComponent } from '../components/ugltd-logo-heb/ugltd-logo-heb.component';
 
 @NgModule({
   declarations: [
@@ -38,8 +37,7 @@ import { UgltdLogoHebComponent } from '../components/ugltd-logo-heb/ugltd-logo-h
     WazeComponent,
     MenuHebComponent,
     MenuComponent,
-    Page404Component,
-    UgltdLogoHebComponent
+    Page404Component
   ],
   imports: [
     BrowserModule,
