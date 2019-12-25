@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { LayoutComponent } from '../components/layout/layout.component';
 import { WelcomeHebComponent } from '../components/welcome-heb/welcome-heb.component';
 import { HomeHebComponent } from '../components/home-heb/home-heb.component';
-import { HeaderHebComponent } from '../components/header-heb/header-heb.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { GalleryComponent } from '../components/gallery/gallery.component';
 import { AboutHebComponent } from '../components/about-heb/about-heb.component';
@@ -27,7 +26,6 @@ import { MatInputModule } from '@angular/material/input';
     LayoutComponent,
     WelcomeHebComponent,
     HomeHebComponent,
-    HeaderHebComponent,
     FooterComponent,
     GalleryComponent,
     AboutHebComponent,

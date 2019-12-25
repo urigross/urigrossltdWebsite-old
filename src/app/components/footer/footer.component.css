@@ -1,9 +1,29 @@
+.footer{
+    line-height: 40px;
+}
+
 h1{
-    padding-top: 10px;
-    font-size: 30px;
+    padding-right: 50px;
+    font-size: 20px;
+
+}
+
+span{
+    z-index: 9;
+    font-size: 10px;
+}
+h1, span{
     font-family: 'Futura';
-    color: black;
-    text-shadow: 0 0 3px #fff, 0 0 7px #fff, 0 0 15px black, 0 0 25px #020202, 0 0 35px #020202, 0 0 45px #020202, 0 0 60px #020202, 0 0 85px #020202, 0 0 110px #020202, 0 0 145px #020202;
-    text-align: center;
+    color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    text-align: right;
     }
 
