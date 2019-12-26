@@ -19,8 +19,10 @@
 
 #footer
 {
-    top: 90%;
-
+    width: 100%;
+    text-align: left;
+    left:1%;
+    top: 92%;
 }
 
 #footer, #navbar {
