@@ -17,6 +17,11 @@
     left: 0;
 }
 
+#footer, #navbar {
+    z-index: 10;
+}
+
+
 #footer
 {
     width: 100%;
@@ -25,8 +30,6 @@
     top: 92%;
 }
 
-#footer, #navbar {
-    z-index: 10;
+#navbar
+{
 }
-
-

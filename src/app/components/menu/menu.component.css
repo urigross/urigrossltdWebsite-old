@@ -1,24 +1,28 @@
-ul {
+ul 
+    {
     text-align: right;
     list-style-type: none;
-    margin: 0;
+    margin-right: 450px;
     padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
+    overflow: visible;
+    }
+li
+    {
+    padding-top: 45px;
     float: right;
-  }
+    }
   
-  li a, .dropbtn {
+li a, .dropbtn 
+{
     display: inline-block;
     color: rgba(46, 23, 4, 0.74); 
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 16px;
     text-decoration: none;
   }
   
-  li a:hover, .dropdown:hover .dropbtn {
+  li a:hover, .dropdown:hover .dropbtn 
+  {
     font-weight: bolder;
   }
   
@@ -29,68 +33,29 @@ ul {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 170px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    margin-top: 0;
+    padding: 5px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: right;
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1;}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
 
+  img{
+      float: right;
+      padding: 0px;
+      margin-right: 500px;
+      margin-top: -60px;
+  }
   
-
-
-/* #navbar{
-    transition: top 0.8s;
-    text-align: right; 
-}
-
-#navbar, #navbar a, img{
-    display: block;
-} */
-    
-/* align menu with right margin */
-/* a:nth-child(1), .the-chosen-one:nth-child(1){
-    display: block;
-    padding-right: 230px;
-}
-
-a,.the-chosen-one{
-    padding-left: 37x;
-    padding-right: 37px;
-    font-size: 22px;
-    
-}
-a{
-    text-decoration: none;
-    font-weight: 500;
-    color: rgba(46, 23, 4, 0.74); 
-
-}
- */
-
-/* .the-chosen-one {
-    
-    font-weight: bolder;
-    /* color: rgb(13, 189, 48); */
-    /* text-shadow: 0 0 3px #fff, 0 0 7px #fff, 0 0 15px rgb(13, 189, 48), 0 0 25px rgb(13, 189, 48), 0 0 35px rgb(13, 189, 48), 0 0 45px rgb(13, 189, 48), 0 0 60px rgb(13, 189, 48), 0 0 85px rgb(13, 189, 48), 0 0 110px rgb(13, 189, 48), 0 0 145px rgb(13, 189, 48); 
-    
-} */
-/* 
-img{
-    margin-right: 70px;
-}
-
- */
