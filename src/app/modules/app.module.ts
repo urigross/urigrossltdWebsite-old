@@ -20,6 +20,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
+import { PlywoodHebComponent } from '../components/plywood-heb/plywood-heb.component';
+import { MdfHebComponent } from '../components/mdf-heb/mdf-heb.component';
+import { HardwoodHebComponent } from '../components/hardwood-heb/hardwood-heb.component';
+import { TegoTlatOsbHebComponent } from '../components/tego-tlat-osb-heb/tego-tlat-osb-heb.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +39,11 @@ import { MatInputModule } from '@angular/material/input';
     WazeComponent,
     MenuHebComponent,
     MenuComponent,
-    Page404Component
+    Page404Component,
+    PlywoodHebComponent,
+    MdfHebComponent,
+    HardwoodHebComponent,
+    TegoTlatOsbHebComponent
   ],
   imports: [
     BrowserModule,
