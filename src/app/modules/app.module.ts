@@ -1,14 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { LayoutComponent } from '../components/layout/layout.component';
-import { WelcomeHebComponent } from '../components/welcome-heb/welcome-heb.component';
 import { HomeHebComponent } from '../components/home-heb/home-heb.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { GalleryComponent } from '../components/gallery/gallery.component';
 import { AboutHebComponent } from '../components/about-heb/about-heb.component';
 import { ContactHebComponent } from '../components/contact-heb/contact-heb.component';
-import { ProductsHebComponent } from '../components/products-heb/products-heb.component';
-import { GooglemapComponent } from '../components/googlemap/googlemap.component';
 import { WazeComponent } from '../components/waze/waze.component';
 import { MenuHebComponent } from '../components/menu-heb/menu-heb.component';
 import { MenuComponent } from '../components/menu/menu.component';
@@ -24,18 +21,16 @@ import { PlywoodHebComponent } from '../components/plywood-heb/plywood-heb.compo
 import { MdfHebComponent } from '../components/mdf-heb/mdf-heb.component';
 import { HardwoodHebComponent } from '../components/hardwood-heb/hardwood-heb.component';
 import { TegoTlatOsbHebComponent } from '../components/tego-tlat-osb-heb/tego-tlat-osb-heb.component';
+import { MapHebComponent } from '../components/map-heb/map-heb.component';
 
 @NgModule({
   declarations: [
     LayoutComponent,
-    WelcomeHebComponent,
     HomeHebComponent,
     FooterComponent,
     GalleryComponent,
     AboutHebComponent,
     ContactHebComponent,
-    ProductsHebComponent,
-    GooglemapComponent,
     WazeComponent,
     MenuHebComponent,
     MenuComponent,
@@ -43,7 +38,8 @@ import { TegoTlatOsbHebComponent } from '../components/tego-tlat-osb-heb/tego-tl
     PlywoodHebComponent,
     MdfHebComponent,
     HardwoodHebComponent,
-    TegoTlatOsbHebComponent
+    TegoTlatOsbHebComponent,
+    MapHebComponent
   ],
   imports: [
     BrowserModule,
