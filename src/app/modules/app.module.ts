@@ -7,7 +7,6 @@ import { GalleryComponent } from '../components/gallery/gallery.component';
 import { AboutHebComponent } from '../components/about-heb/about-heb.component';
 import { ContactHebComponent } from '../components/contact-heb/contact-heb.component';
 import { WazeComponent } from '../components/waze/waze.component';
-import { MenuHebComponent } from '../components/menu-heb/menu-heb.component';
 import { MenuComponent } from '../components/menu/menu.component';
 import { RoutingModule } from './routing.module';
 import { RouterModule } from '@angular/router';
@@ -32,7 +31,6 @@ import { MapHebComponent } from '../components/map-heb/map-heb.component';
     AboutHebComponent,
     ContactHebComponent,
     WazeComponent,
-    MenuHebComponent,
     MenuComponent,
     Page404Component,
     PlywoodHebComponent,
