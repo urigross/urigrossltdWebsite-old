@@ -26,9 +26,9 @@ export class MenuComponent implements OnInit {
   ngOnInit() {
 
   }
-
-  private  getbackgroundColor(): string {
-      return this.route === '/heb/about' ?  'black' :  '';
+// switches color according to routing
+  private  colorPerRouting(): string {
+      return this.route === '/heb/about' ?  'white' :  'initial';
   }
 }
 
