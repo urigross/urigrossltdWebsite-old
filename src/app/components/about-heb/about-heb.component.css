@@ -1,4 +1,16 @@
-div{
+#about{
     text-align: right;
-    padding: 150px 50px;
+}
+
+.background-crop{
+    display: inline-block;
+    height: 563px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.background-crop img{
+    width: 100%;
 }

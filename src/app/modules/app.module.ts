@@ -16,12 +16,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { PlywoodHebComponent } from '../components/plywood-heb/plywood-heb.component';
 import { MdfHebComponent } from '../components/mdf-heb/mdf-heb.component';
 import { HardwoodHebComponent } from '../components/hardwood-heb/hardwood-heb.component';
 import { TegoTlatOsbHebComponent } from '../components/tego-tlat-osb-heb/tego-tlat-osb-heb.component';
 import { MapHebComponent } from '../components/map-heb/map-heb.component';
-
+import { PlywoodSideNavbarComponent } from '../components/plywood-side-navbar/plywood-side-navbar.component';
 @NgModule({
   declarations: [
     LayoutComponent,
@@ -37,7 +38,8 @@ import { MapHebComponent } from '../components/map-heb/map-heb.component';
     MdfHebComponent,
     HardwoodHebComponent,
     TegoTlatOsbHebComponent,
-    MapHebComponent
+    MapHebComponent,
+    PlywoodSideNavbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,6 +50,7 @@ import { MapHebComponent } from '../components/map-heb/map-heb.component';
     MatButtonModule,
     MatCheckboxModule,
     MatIconModule,
+    MatToolbarModule
 
   ],
   providers: [],
