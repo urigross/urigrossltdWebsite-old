@@ -16,6 +16,13 @@
     right: 0;
 }
 
+#navbar, #main
+{
+    top: 0;
+    right: 0;
+}
+
+
 #footer, #navbar {
     z-index: 1;
 }
@@ -29,6 +36,3 @@
     top: 92%;
 }
 
-#navbar
-{
-}

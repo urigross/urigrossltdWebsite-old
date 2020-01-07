@@ -13,10 +13,7 @@ import { RouterModule } from '@angular/router';
 import { Page404Component } from '../components/page404/page404.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
-import { MatCheckboxModule } from '@angular/material/checkbox';
-import { MatIconModule } from '@angular/material/icon';
-import { MatInputModule } from '@angular/material/input';
-import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule, MatToolbarModule, MatListModule, MatCheckboxModule, MatIconModule, MatInputModule } from '@angular/material';
 import { PlywoodHebComponent } from '../components/plywood-heb/plywood-heb.component';
 import { MdfHebComponent } from '../components/mdf-heb/mdf-heb.component';
 import { HardwoodHebComponent } from '../components/hardwood-heb/hardwood-heb.component';
@@ -50,7 +47,9 @@ import { PlywoodSideNavbarComponent } from '../components/plywood-side-navbar/pl
     MatButtonModule,
     MatCheckboxModule,
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatListModule,
+    MatSidenavModule
 
   ],
   providers: [],
