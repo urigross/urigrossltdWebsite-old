@@ -1,5 +1,14 @@
 #about{
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
     text-align: right;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    right: 19%;
+    font-weight: 600;
 }
 
 .background-crop{
@@ -7,10 +16,8 @@
     height: 563px;
     width: 100%;
     overflow: hidden;
+    opacity: 0.7;
 }
 
 
 
-.background-crop img{
-    width: 100%;
-}
