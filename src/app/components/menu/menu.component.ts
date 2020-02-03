@@ -27,7 +27,7 @@ export class MenuComponent implements OnInit {
 
   }
 // switches color according to routing
-  private  colorPerRouting(): string {
+  private  toggleColorAboutRouting(): string {
       return this.route === '/heb/about' ?  'white' :  'initial';
   }
 }

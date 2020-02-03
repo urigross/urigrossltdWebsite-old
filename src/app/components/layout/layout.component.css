@@ -5,9 +5,9 @@
 
 }
 
-#navbar, #main, #footer
+#main
 {
-    position: absolute;
+    position: relative;
 }
 
 #navbar, #main
@@ -18,16 +18,21 @@
 
 
 
-#footer, #navbar {
+    #navbar {
     z-index: 1;
+    background-color: black;
 }
 
 
 #footer
 {
+    margin-top: 10px;
+    position: fixed;
     width: 100%;
     text-align: left;
-    left:1%;
-    top: 92%;
+    bottom: 0;
 }
 
+#navbar{
+    position: fixed;
+}
