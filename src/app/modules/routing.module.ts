@@ -13,7 +13,7 @@ import { MapHebComponent } from '../components/map-heb/map-heb.component';
 
 const routes: Routes = [
     { path: 'heb/home', component: HomeHebComponent},
-    { path: 'heb/about', component: AboutHebComponent},
+    { path: 'heb/about', component: AboutHebComponent, data: {color: 'white'}},
     { path: 'heb/plywood1', component: PlywoodHebComponent},
     { path: 'heb/mdf', component: MdfHebComponent},
     { path: 'heb/hardwood', component: HardwoodHebComponent},
