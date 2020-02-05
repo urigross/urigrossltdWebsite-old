@@ -1,4 +1,6 @@
-#sidebar{
+.sidebar{
+    text-align: right;
     margin-top: 150px;
-    margin-right: 100px;
+    margin-right: 0px;
+    background-color: blueviolet;
 }
