@@ -19,7 +19,8 @@
 
     #navbar {
     z-index: 1;
-    background-color: black;
+    /*menu background color control is here
+    Task: toggle in "about" page to white. Rest should be transparent*/
 }
 
 
