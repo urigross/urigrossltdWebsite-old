@@ -1,6 +1,5 @@
 .sidebar{
-    text-align: right;
+    width: 150px; /*control the total width of the sidemenu */
     margin-top: 150px;
-    margin-right: 0px;
     background-color: blueviolet;
 }
