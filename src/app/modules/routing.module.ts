@@ -11,6 +11,7 @@ import { TegoTlatOsbHebComponent } from '../components/tego-tlat-osb-heb/tego-tl
 import { HardwoodHebComponent } from '../components/hardwood-heb/hardwood-heb.component';
 import { MapHebComponent } from '../components/map-heb/map-heb.component';
 
+
 const routes: Routes = [
     { path: 'heb/home', component: HomeHebComponent},
     { path: 'heb/about', component: AboutHebComponent, data: {color: 'white'}},

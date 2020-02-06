@@ -20,6 +20,8 @@ import { HardwoodHebComponent } from '../components/hardwood-heb/hardwood-heb.co
 import { TegoTlatOsbHebComponent } from '../components/tego-tlat-osb-heb/tego-tlat-osb-heb.component';
 import { MapHebComponent } from '../components/map-heb/map-heb.component';
 import { PlywoodSideNavbarComponent } from '../components/plywood-side-navbar/plywood-side-navbar.component';
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     LayoutComponent,
@@ -49,7 +51,8 @@ import { PlywoodSideNavbarComponent } from '../components/plywood-side-navbar/pl
     MatIconModule,
     MatToolbarModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    HttpClientModule
 
   ],
   providers: [],
