@@ -1,15 +1,29 @@
 ul 
-    {
-    text-align: right;
+{
+    box-sizing: border-box;
+    float: right;
+    width: 100%;
+    text-align: center;
     list-style-type: none;
-    margin-right: 450px;
-    padding: 0;
+    /* margin-right: 450px;
+    padding: 0; */
     overflow: visible;
     }
+
+.menu-buttons{
+    width: 75%;
+}
+
+.menu-logo{
+    width: 25%;
+}
+
 li
     {
+    background-color: black;
     padding-top: 25px;
     float: right;
+    
     }
   
 li a, .dropbtn 
@@ -27,7 +41,7 @@ li a, .dropbtn
   }
   
   li.dropdown {
-    display: inline-block;
+    display: inline-block;   /*dropdown menu positioning at main-menu */
   }
   
   .dropdown-content {
@@ -54,7 +68,7 @@ li a, .dropbtn
   }
 
   img{
-      float: right;
+        /* float: right; */
       padding: 0px;
       margin-right: 500px;
       margin-top: -60px;
