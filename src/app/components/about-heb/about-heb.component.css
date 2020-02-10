@@ -2,13 +2,14 @@
     position: static;
     text-align: right;
     font-weight: 600;
-    font-size: 0.9em;
+    font-size: 1.1em;
     margin-top: 300px;
     margin-right: 200px;
 }
 
 .background-crop{
     position: fixed;
+    width: 100%;
     top: 150px;
     height: 155px;
     background-color: white;
