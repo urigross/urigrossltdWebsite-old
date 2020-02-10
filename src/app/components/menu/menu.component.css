@@ -1,34 +1,49 @@
-ul 
+.menu-buttons
 {
     box-sizing: border-box;
     float: right;
-    width: 100%;
     text-align: center;
     list-style-type: none;
     /* margin-right: 450px;
     padding: 0; */
     overflow: visible;
+    width: 75%;
+    padding-right: 7em;
+    padding-top: 3.5em;
     }
 
-.menu-buttons{
-    width: 75%;
-}
-
 .menu-logo{
+    float: right;
+    /* background-color: green; */
+    margin-top: -0.5em;
     width: 25%;
 }
 
 li
     {
-    background-color: black;
-    padding-top: 25px;
+    box-sizing: border-box;
+    /* background-color: orange; */
     float: right;
+    }
+
     
+    li a
+    {
+        box-sizing: border-box;
+        color: rgba(46, 23, 4, 0.74); /*Menu text color*/
+        text-align: center;
+        padding: 0px 25px;  /* space between menu items */
+        text-decoration: none;
+    }
+    
+    .phone a {
+        padding-left: 0px;
     }
   
-li a, .dropbtn 
+.dropbtn 
 {
-    display: inline-block;
+    box-sizing: border-box;
+    /* display: inline-block; */
     color: rgba(46, 23, 4, 0.74); /*Menu text color*/
     text-align: center;
     padding: 4px 16px;
@@ -37,6 +52,8 @@ li a, .dropbtn
   
   li a:hover, .dropdown:hover .dropbtn 
   {
+    box-sizing: border-box;
+
     font-weight: bolder;
   }
   
@@ -68,9 +85,11 @@ li a, .dropbtn
   }
 
   img{
-        /* float: right; */
-      padding: 0px;
+        float: right;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+      /* padding: 0px;
       margin-right: 500px;
-      margin-top: -60px;
+      margin-top: -60px; */
   }
   
