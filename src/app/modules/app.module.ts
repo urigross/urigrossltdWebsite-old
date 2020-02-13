@@ -9,7 +9,6 @@ import { ContactHebComponent } from '../components/contact-heb/contact-heb.compo
 import { WazeComponent } from '../components/waze/waze.component';
 import { MenuComponent } from '../components/menu/menu.component';
 import { RoutingModule } from './routing.module';
-import { HebPlywoodRoutingModule } from './heb-plywood-routing.module';
 import { RouterModule } from '@angular/router';
 import { Page404Component } from '../components/page404/page404.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -54,7 +53,6 @@ import { TwinHebComponent } from '../components/heb/plywood/twin-heb/twin-heb.co
     BrowserModule,
     RoutingModule,
     RouterModule,
-    HebPlywoodRoutingModule,
     BrowserAnimationsModule,
     MatInputModule,
     MatButtonModule,

@@ -1,3 +1,7 @@
+.sidebar, img{
+    box-sizing: border-box;
+}
+
 .sidebar{
     width: 150px; /*control the total width of the sidemenu */
     margin-top: 150px;

@@ -1,3 +1,8 @@
 <nav class="sidebar">
-    <app-plywood-side-navbar></app-plywood-side-navbar>
+    <app-plywood-side-navbar (stringOutput)=getChildEvent($event)></app-plywood-side-navbar>
 </nav>
+<!-- the plan is:
+create text and image elements that will appear accordint to creates such as plywoodSideBar component-->
+<div *ngIf="imageName;">
+    <img class="image" src="../../../assets/images/plywoods/{{imageName}}.jpg">
+</div>
