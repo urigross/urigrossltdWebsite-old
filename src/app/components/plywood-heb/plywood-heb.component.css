@@ -1,9 +1,31 @@
-.sidebar, img{
+.sidebar, .image-box, .plywood-text, img{
     box-sizing: border-box;
+    float: right;
+}
+
+.sidebar, .image-box, .plywood-text{
+    padding-top: 150px;
 }
 
 .sidebar{
-    width: 150px; /*control the total width of the sidemenu */
-    margin-top: 150px;
-    padding-right: 20px;
+    width: 15%; /*control the total width of the sidemenu */
+    padding-right: 50px;
 }
+
+
+
+.image-box, .plywood-text {
+    width: 40%;
+
+}
+
+img{
+    width: 50%;
+    padding-right: 100px;
+}
+
+.plywood-text{
+    text-align: right;
+    padding-right: 100px;
+}
+

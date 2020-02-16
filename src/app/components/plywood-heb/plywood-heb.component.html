@@ -3,6 +3,9 @@
 </nav>
 <!-- the plan is:
 create text and image elements that will appear accordint to creates such as plywoodSideBar component-->
-<div *ngIf="imageName;">
+<div class="plywood-text">
+    <app-twin-heb class="plywoodText"></app-twin-heb>
+</div>
+<div class="image-box" *ngIf="imageName;">
     <img class="image" src="../../../assets/images/plywoods/{{imageName}}.jpg">
 </div>
