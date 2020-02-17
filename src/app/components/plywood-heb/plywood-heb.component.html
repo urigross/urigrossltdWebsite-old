@@ -1,8 +1,6 @@
 <nav class="sidebar">
     <app-plywood-side-navbar (stringOutput)=getChildEvent($event)></app-plywood-side-navbar>
 </nav>
-<!-- the plan is:
-create text and image elements that will appear accordint to creates such as plywoodSideBar component-->
 <div class="plywood-text" *ngIf="imageName=='twin';">
     <app-twin-heb class="plywoodText"></app-twin-heb>
 </div>

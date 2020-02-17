@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-mdf-side-navbar',
@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mdf-side-navbar.component.css']
 })
 export class MdfSideNavbarComponent implements OnInit {
+@Output() stringOutput = new EventEmitter<string>();
 
+sendChoiceToParent(value:string){
+  this.stringOutput.emit(value);
+}
   constructor() { }
 
   ngOnInit(): void {

@@ -1,1 +1,14 @@
-<p>mdf-heb works!</p>
+<nav class="sidebar">
+    <app-mdf-side-navbar (stringOutput)=getChildEvent($event)></app-mdf-side-navbar>
+</nav>
+<div class="plywood-text" *ngIf="imageName=='mdf';">
+    <app-mdf-heb class="plywoodText"></app-mdf-heb>
+</div>
+<div class="plywood-text" *ngIf="imageName=='okoume';">
+    <app-mdf-mr-heb class="plywoodText"></app-mdf-mr-heb>
+</div><div class="plywood-text" *ngIf="imageName=='birch';">
+    <app-mdf-mr-melamine-heb class="plywoodText"></app-mdf-mr-melamine-heb>
+</div>
+<div class="image-box" *ngIf="imageName;">
+    <img class="image" src="../../../assets/images/mdf/{{imageName}}">
+</div>

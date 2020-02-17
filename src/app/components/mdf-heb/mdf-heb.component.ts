@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mdf-heb.component.css']
 })
 export class MdfHebComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+  imageName: string;
+  getChildEvent($event){
+    this.imageName = $event;
+    console.log(this.imageName);
+    
   }
+
+constructor() { }
+
+ngOnInit() {
+}
 
 }
