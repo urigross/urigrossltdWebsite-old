@@ -1,6 +1,35 @@
-.sidebar{
-    text-align: right;
-    margin-top: 150px;
-    margin-right: 0px;
-    background-color: blueviolet;
+.sidebar, .image-box, .plywood-text, img{
+    box-sizing: border-box;
+    float: right;
 }
+
+.sidebar, .image-box, .plywood-text{
+    padding-top: 150px;
+}
+
+.sidebar{
+    width: 15%; /*control the total width of the sidemenu */
+    padding-right: 50px;
+}
+
+
+
+.image-box, .plywood-text {
+    width: 40%;
+
+}
+
+.image-box{
+    margin-top: 2rem;
+}
+
+img{
+    width: 50%;
+    padding-right: 100px;
+}
+
+.plywood-text{
+    text-align: right;
+    padding-right: 100px;
+}
+

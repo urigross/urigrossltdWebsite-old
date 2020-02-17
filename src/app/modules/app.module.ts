@@ -13,13 +13,21 @@ import { RouterModule } from '@angular/router';
 import { Page404Component } from '../components/page404/page404.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule, MatToolbarModule, MatListModule, MatCheckboxModule, MatIconModule, MatInputModule } from '@angular/material';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatListModule } from '@angular/material/list';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { PlywoodHebComponent } from '../components/plywood-heb/plywood-heb.component';
 import { MdfHebComponent } from '../components/mdf-heb/mdf-heb.component';
 import { HardwoodHebComponent } from '../components/hardwood-heb/hardwood-heb.component';
 import { TegoTlatOsbHebComponent } from '../components/tego-tlat-osb-heb/tego-tlat-osb-heb.component';
 import { MapHebComponent } from '../components/map-heb/map-heb.component';
 import { PlywoodSideNavbarComponent } from '../components/plywood-side-navbar/plywood-side-navbar.component';
+import { BirchHebComponent } from '../components/heb/plywood/birch-heb/birch-heb.component';
+import { OkoumeHebComponent } from '../components/heb/plywood/okoume-heb/okoume-heb.component';
+import { TwinHebComponent } from '../components/heb/plywood/twin-heb/twin-heb.component';
 @NgModule({
   declarations: [
     LayoutComponent,
@@ -37,6 +45,9 @@ import { PlywoodSideNavbarComponent } from '../components/plywood-side-navbar/pl
     TegoTlatOsbHebComponent,
     MapHebComponent,
     PlywoodSideNavbarComponent,
+    BirchHebComponent,
+    OkoumeHebComponent,
+    TwinHebComponent
   ],
   imports: [
     BrowserModule,
