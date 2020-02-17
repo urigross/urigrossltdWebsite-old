@@ -19,6 +19,10 @@
 
 }
 
+.image-box{
+    margin-top: 2rem;
+}
+
 img{
     width: 50%;
     padding-right: 100px;
