@@ -28,6 +28,7 @@ import { PlywoodSideNavbarComponent } from '../components/plywood-side-navbar/pl
 import { BirchHebComponent } from '../components/heb/plywood/birch-heb/birch-heb.component';
 import { OkoumeHebComponent } from '../components/heb/plywood/okoume-heb/okoume-heb.component';
 import { TwinHebComponent } from '../components/heb/plywood/twin-heb/twin-heb.component';
+import { MdfSideNavbarComponent } from '../components/mdf-side-navbar/mdf-side-navbar.component';
 @NgModule({
   declarations: [
     LayoutComponent,
@@ -47,7 +48,8 @@ import { TwinHebComponent } from '../components/heb/plywood/twin-heb/twin-heb.co
     PlywoodSideNavbarComponent,
     BirchHebComponent,
     OkoumeHebComponent,
-    TwinHebComponent
+    TwinHebComponent,
+    MdfSideNavbarComponent
   ],
   imports: [
     BrowserModule,
