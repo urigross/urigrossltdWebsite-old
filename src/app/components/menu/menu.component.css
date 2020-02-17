@@ -1,20 +1,51 @@
-ul 
-    {
-    text-align: right;
+.menu-buttons
+{
+    box-sizing: border-box;
+    float: right;
+    text-align: center;
     list-style-type: none;
-    margin-right: 450px;
-    padding: 0;
+    /* margin-right: 450px;
+    padding: 0; */
     overflow: visible;
+    width: 75%;
+    padding-right: 8.5em;
+    padding-top: 3.1em;
+    font-size: 1.3em;
+
     }
+
+.menu-logo{
+    float: right;
+    /* background-color: green; */
+    margin-top: -0.5em;
+    width: 25%;
+}
+
 li
     {
-    padding-top: 25px;
+    box-sizing: border-box;
+    /* background-color: orange; */
     float: right;
     }
+
+    
+    li a
+    {
+        box-sizing: border-box;
+        color: rgba(46, 23, 4, 0.74); /*Menu text color*/
+        text-align: center;
+        padding: 0px 25px;  /* space between menu items */
+        text-decoration: none;
+    }
+    
+    .phone a {
+        padding-left: 0px;
+    }
   
-li a, .dropbtn 
+.dropbtn 
 {
-    display: inline-block;
+    box-sizing: border-box;
+    /* display: inline-block; */
     color: rgba(46, 23, 4, 0.74); /*Menu text color*/
     text-align: center;
     padding: 4px 16px;
@@ -23,11 +54,13 @@ li a, .dropbtn
   
   li a:hover, .dropdown:hover .dropbtn 
   {
+    box-sizing: border-box;
+
     font-weight: bolder;
   }
   
   li.dropdown {
-    display: inline-block;
+    display: inline-block;   /*dropdown menu positioning at main-menu */
   }
   
   .dropdown-content {
@@ -54,9 +87,11 @@ li a, .dropbtn
   }
 
   img{
-      float: right;
-      padding: 0px;
+        float: right;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+      /* padding: 0px;
       margin-right: 500px;
-      margin-top: -60px;
+      margin-top: -60px; */
   }
   
