@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-mdf',
@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mdf.component.css']
 })
 export class MdfComponent implements OnInit {
+
+  @Output() stringOutput = new EventEmitter<string>();
+
+  sendChoiceToParent(value:string){
+    this.stringOutput.emit(value);
+  }
 
   constructor() { }
 
