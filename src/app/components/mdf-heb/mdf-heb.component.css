@@ -1,9 +1,9 @@
-.sidebar, .image-box, .plywood-text, img{
+.sidebar, .image-box, .mdf-text, img{
     box-sizing: border-box;
     float: right;
 }
 
-.sidebar, .image-box, .plywood-text{
+.sidebar, .image-box, .mdf-text{
     padding-top: 150px;
 }
 
@@ -14,7 +14,7 @@
 
 
 
-.image-box, .plywood-text {
+.image-box, .mdf-text {
     width: 40%;
 
 }
@@ -28,7 +28,7 @@ img{
     padding-right: 100px;
 }
 
-.plywood-text{
+.mdf-text{
     text-align: right;
     padding-right: 100px;
 }

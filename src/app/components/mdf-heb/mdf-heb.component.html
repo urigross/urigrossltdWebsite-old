@@ -1,14 +1,14 @@
 <nav class="sidebar">
     <app-mdf-side-navbar (stringOutput)=getChildEvent($event)></app-mdf-side-navbar>
 </nav>
-<div class="plywood-text" *ngIf="imageName=='mdf';">
-    <app-mdf-heb class="plywoodText"></app-mdf-heb>
+<div class="mdf-text" *ngIf="imageName=='mdf';">
+    <app-mdf class="mdfText"></app-mdf>
 </div>
-<div class="plywood-text" *ngIf="imageName=='okoume';">
-    <app-mdf-mr-heb class="plywoodText"></app-mdf-mr-heb>
-</div><div class="plywood-text" *ngIf="imageName=='birch';">
-    <app-mdf-mr-melamine-heb class="plywoodText"></app-mdf-mr-melamine-heb>
+<div class="mdf-text" *ngIf="imageName=='mdf-mr';">
+    <app-mdf-mr class="mdf-mr"></app-mdf-mr>
+</div><div class="mdf-text" *ngIf="imageName=='mdf-mr-melamine';">
+    <app-mdf-mr-melamine class="plywoodText"></app-mdf-mr-melamine>
 </div>
-<div class="image-box" *ngIf="imageName;">
-    <img class="image" src="../../../assets/images/mdf/{{imageName}}">
+<div class="image-box" *ngIf="imageNameWithExt;">
+    <img class="image" src="../../../assets/images/mdf/{{imageNameWithExt}}">
 </div>

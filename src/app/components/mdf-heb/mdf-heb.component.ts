@@ -7,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MdfHebComponent implements OnInit {
   imageName: string;
+  imageNameWithExt: string;
+  //Toto: Add a string variable which will cut the file ending and implement it on html of this component
   getChildEvent($event){
-    this.imageName = $event;
-    console.log(this.imageName);
-    
+    this.imageNameWithExt = $event;
+    this.imageName=this.imageNameAndExtToImageName(this.imageNameWithExt);
+  }
+  private imageNameAndExtToImageName(value:string): string{
+    return value.substr(0, value.length -4);
   }
 
 constructor() { }
