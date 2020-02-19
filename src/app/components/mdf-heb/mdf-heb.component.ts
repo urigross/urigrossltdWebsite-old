@@ -10,12 +10,10 @@ export class MdfHebComponent implements OnInit {
   imageNameWithExt: string;
   //Todo: make mdf images more attractive , fill text and align elements
   getChildEvent($event){
-    this.imageNameWithExt = $event;
-    this.imageName=this.imageNameAndExtToImageName(this.imageNameWithExt);
+    this.imageName = $event;
+    this.imageNameWithExt=this.imageName.concat(".jpg");
   }
-  private imageNameAndExtToImageName(value:string): string{
-    return value.substr(0, value.length -4);
-  }
+  
 
 constructor() { }
 
