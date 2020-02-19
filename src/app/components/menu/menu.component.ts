@@ -13,12 +13,8 @@ export class MenuComponent implements OnInit {
       router.events.subscribe( val => {
           if (location.path() !== '') {
               this.route = location.path();
-              console.log(this.route);
-
       } else {
           this.route = 'home';
-          console.log(this.route);
-
       }
     });
    }

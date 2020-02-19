@@ -1,0 +1,14 @@
+a{
+    color: brown;
+    font-weight: 500;
+    cursor: pointer;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+
+}
+
+a:hover{
+    font-size: 1.1em;
+
+}
+

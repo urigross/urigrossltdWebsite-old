@@ -12,11 +12,6 @@ export class HomeHebComponent implements OnInit {
     constructor() { }
 
     ngOnInit() {
-        // this.getMenuWidth();
-    }
-    // public getMenuWidth(): void {
-    //     this.element = document.getElementById('nav');
-    //     this.positionInfo = this.element.getBoundingClientRect();
-    //     this.width = this.positionInfo.width;
-    // }
+        
+     }
 }
