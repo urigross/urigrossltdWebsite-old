@@ -32,6 +32,7 @@ import { MdfSideNavbarComponent } from '../components/mdf-side-navbar/mdf-side-n
 import { MdfComponent } from '../components/heb/mdf/mdf/mdf.component';
 import { MdfMrComponent } from '../components/heb/mdf/mdf-mr/mdf-mr.component';
 import { MdfMrMelamineComponent } from '../components/heb/mdf/mdf-mr-melamine/mdf-mr-melamine.component';
+import { MdfVeneerComponent } from '../components/heb/mdf/mdf-veneer/mdf-veneer.component';
 @NgModule({
   declarations: [
     LayoutComponent,
@@ -55,7 +56,8 @@ import { MdfMrMelamineComponent } from '../components/heb/mdf/mdf-mr-melamine/md
     MdfSideNavbarComponent,
     MdfComponent,
     MdfMrComponent,
-    MdfMrMelamineComponent
+    MdfMrMelamineComponent,
+    MdfVeneerComponent
   ],
   imports: [
     BrowserModule,
