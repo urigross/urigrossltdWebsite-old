@@ -1,1 +1,17 @@
-<p>mdf-heb works!</p>
+<nav class="sidebar">
+    <app-mdf-side-navbar (stringOutput)=getChildEvent($event)></app-mdf-side-navbar>
+</nav>
+<div class="mdf-text" *ngIf="imageName=='mdf';">
+    <app-mdf (stringOutput)=getChildEvent($event)></app-mdf>
+</div>
+<div class="mdf-text" *ngIf="imageName=='mdf-mr';">
+    <app-mdf-mr></app-mdf-mr>
+</div><div class="mdf-text" *ngIf="imageName=='mdf-mr-melamine';">
+    <app-mdf-mr-melamine></app-mdf-mr-melamine>
+</div>
+<div class="mdf-text" *ngIf="imageName=='mdf-veneer';">
+    <app-mdf-veneer></app-mdf-veneer>
+</div>
+<div class="image-box" *ngIf="imageNameWithExt;">
+    <img class="image" src="../../../assets/images/mdf/{{imageNameWithExt}}">
+</div>

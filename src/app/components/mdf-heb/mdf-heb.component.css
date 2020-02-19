@@ -1,0 +1,35 @@
+.sidebar, .image-box, .mdf-text, img{
+    box-sizing: border-box;
+    float: right;
+}
+
+.sidebar, .image-box, .mdf-text{
+    padding-top: 150px;
+}
+
+.sidebar{
+    width: 15%; /*control the total width of the sidemenu */
+    padding-right: 50px;
+}
+
+
+
+.image-box, .mdf-text {
+    width: 40%;
+
+}
+
+.image-box{
+    margin-top: 2rem;
+}
+
+img{
+    width: 50%;
+    padding-right: 100px;
+}
+
+.mdf-text{
+    text-align: right;
+    padding-right: 100px;
+}
+
