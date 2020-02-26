@@ -24,9 +24,6 @@ export class HardwoodHebComponent implements OnInit {
     this.images=[];
     this.imageNames = this.imageService.getImageName();
     this.images = this.imageService.getHardwoodImagesPath();
-    this.imageNames.forEach(element => {
-      console.log(element);
-    });
 
   }
 

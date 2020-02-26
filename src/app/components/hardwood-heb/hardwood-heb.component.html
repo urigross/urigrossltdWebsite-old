@@ -1,9 +1,9 @@
-<ngb-carousel #carousel interval="3000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+<ngb-carousel class="carousel" #carousel interval="8000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
     <ng-template ngbSlide *ngFor="let img of images; index as i">
         <div class="carousel-caption">
             <h3>{{imageNames[i]}}</h3>
         </div>
-        <div class="picsum-img-wrapper">
+        <div class="img-wrapper">
             <img [src]="img" alt="img">
         </div>
     </ng-template>

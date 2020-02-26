@@ -1,3 +1,41 @@
-h3{
-    color: black;
+
+.carousel{
+    box-sizing: border-box;
+    float: right;
+    width: 20%;
+    height: 40%;
+    margin-top: 15%;
+    margin-right: 40%;
 }
+
+
+
+img{
+    float: right;
+    width: 100%;
+    animation-duration: 1.4s;
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infnite;
+    animation-direction: alternate;
+    
+    
+    
+}
+
+
+@keyframes cf3FadeInOut {
+    0% {
+      opacity:0.3;
+    
+    }
+    10% {
+        opacity: 0.4;
+
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+ 
