@@ -33,6 +33,10 @@ import { MdfComponent } from '../components/heb/mdf/mdf/mdf.component';
 import { MdfMrComponent } from '../components/heb/mdf/mdf-mr/mdf-mr.component';
 import { MdfMrMelamineComponent } from '../components/heb/mdf/mdf-mr-melamine/mdf-mr-melamine.component';
 import { MdfVeneerComponent } from '../components/heb/mdf/mdf-veneer/mdf-veneer.component';
+import { Hardwood } from '../models/hardwood';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+
 @NgModule({
   declarations: [
     LayoutComponent,
@@ -70,10 +74,11 @@ import { MdfVeneerComponent } from '../components/heb/mdf/mdf-veneer/mdf-veneer.
     MatIconModule,
     MatToolbarModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    NgbModule
 
   ],
-  providers: [],
+  providers: [Hardwood],
   bootstrap: [LayoutComponent]
 })
 export class AppModule { }
