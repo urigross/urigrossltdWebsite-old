@@ -2,13 +2,14 @@
 .carousel{
     box-sizing: border-box;
     float: right;
-    width: 20%;
-    height: 40%;
-    margin-top: 15%;
+    width: 30%;
+    margin-top: 10%;
     margin-right: 40%;
 }
 
-
+h3{
+  text-align: center;
+}
 
 img{
     float: right;
