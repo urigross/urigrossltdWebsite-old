@@ -35,6 +35,19 @@ import { MdfMrMelamineComponent } from '../components/heb/mdf/mdf-mr-melamine/md
 import { MdfVeneerComponent } from '../components/heb/mdf/mdf-veneer/mdf-veneer.component';
 import { Hardwood } from '../models/hardwood';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { AfricanBlackOframComponent } from '../components/heb/hardwood/african-black-ofram/african-black-ofram.component';
+import { AfricanMahagoniSapelliComponent } from '../components/heb/hardwood/african-mahagoni-sapelli/african-mahagoni-sapelli.component';
+import { AmericanSouthernYellowPineComponent } from '../components/heb/hardwood/american-southern-yellow-pine/american-southern-yellow-pine.component';
+import { EuropeanOakComponent } from '../components/heb/hardwood/european-oak/european-oak.component';
+import { EuropeanBeechwoodComponent } from '../components/heb/hardwood/european-beechwood/european-beechwood.component';
+import { AmericanYellowPoplarComponent } from '../components/heb/hardwood/american-yellow-poplar/american-yellow-poplar.component';
+import { AmericanWhiteOakComponent } from '../components/heb/hardwood/american-white-oak/american-white-oak.component';
+import { AmericanRedOakComponent } from '../components/heb/hardwood/american-red-oak/american-red-oak.component';
+import { AmericanWhiteAshComponent } from '../components/heb/hardwood/american-white-ash/american-white-ash.component';
+import { AmericanWalnutComponent } from '../components/heb/hardwood/american-walnut/american-walnut.component';
+import { AmericanDuglasFirComponent } from '../components/heb/hardwood/american-duglas-fir/american-duglas-fir.component';
+import { AmericanCherryComponent } from '../components/heb/hardwood/american-cherry/american-cherry.component';
+import { AmericanHardMapleComponent } from '../components/heb/hardwood/american-hard-maple/american-hard-maple.component';
 
 
 @NgModule({
@@ -61,7 +74,20 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     MdfComponent,
     MdfMrComponent,
     MdfMrMelamineComponent,
-    MdfVeneerComponent
+    MdfVeneerComponent,
+    AfricanBlackOframComponent,
+    AfricanMahagoniSapelliComponent,
+    AmericanSouthernYellowPineComponent,
+    EuropeanOakComponent,
+    EuropeanBeechwoodComponent,
+    AmericanYellowPoplarComponent,
+    AmericanWhiteOakComponent,
+    AmericanRedOakComponent,
+    AmericanWhiteAshComponent,
+    AmericanWalnutComponent,
+    AmericanDuglasFirComponent,
+    AmericanCherryComponent,
+    AmericanHardMapleComponent
   ],
   imports: [
     BrowserModule,
