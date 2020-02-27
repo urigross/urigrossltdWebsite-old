@@ -48,6 +48,7 @@ import { AmericanWalnutComponent } from '../components/heb/hardwood/american-wal
 import { AmericanDuglasFirComponent } from '../components/heb/hardwood/american-duglas-fir/american-duglas-fir.component';
 import { AmericanCherryComponent } from '../components/heb/hardwood/american-cherry/american-cherry.component';
 import { AmericanHardMapleComponent } from '../components/heb/hardwood/american-hard-maple/american-hard-maple.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -101,7 +102,8 @@ import { AmericanHardMapleComponent } from '../components/heb/hardwood/american-
     MatToolbarModule,
     MatListModule,
     MatSidenavModule,
-    NgbModule
+    NgbModule,
+    FormsModule
 
   ],
   providers: [Hardwood],

@@ -1,16 +1,18 @@
-
 .carousel{
     box-sizing: border-box;
     float: right;
     width: 30%;
     margin-top: 10%;
-    margin-right: 40%;
+    margin-right: 20%;
 }
 
-h3{
+.wood-text{
+  box-sizing: border-box;
+  float: right;
+  margin-top: 10%;
   text-align: center;
+  width: 20%;
 }
-
 img{
     float: right;
     width: 100%;
@@ -18,25 +20,18 @@ img{
     animation-name: cf3FadeInOut;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infnite;
-    animation-direction: alternate;
-    
-    
-    
+    animation-direction: alternate;     
 }
-
-
 @keyframes cf3FadeInOut {
     0% {
       opacity:0.3;
-    
     }
     10% {
         opacity: 0.4;
-
     }
     100% {
       opacity:1;
     }
   }
-  
+
  
