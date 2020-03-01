@@ -3,6 +3,7 @@ import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/n
 import { ImageService } from 'src/app/services/image.service';
 
 
+
 @Component({
   selector: 'app-hardwood-heb',
   templateUrl: './hardwood-heb.component.html',
@@ -16,6 +17,8 @@ export class HardwoodHebComponent implements OnInit {
   unpauseOnArrow: boolean = false;
   paused: boolean = false;
   pauseOnHover: boolean = true;
+  public selectedImage: string ='';
+  public componentOutlet='app-african-black-ofram';
 
   constructor(private imageService: ImageService) {
 

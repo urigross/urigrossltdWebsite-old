@@ -1,5 +1,44 @@
 <ngb-carousel class="carousel" #carousel interval="7000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
     <ng-template ngbSlide *ngFor="let img of images; index as i">
+        <div class="wood-text" *ngIf="imageNames[i]==='אגוז אפריקאי';">
+            <app-african-black-ofram></app-african-black-ofram>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='ספלי מהגוני';">
+            <app-african-mahagoni-sapelli></app-african-mahagoni-sapelli>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='שרי - דובדבן';">
+            <app-american-cherry></app-american-cherry>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='אורן קליר';">
+            <app-american-duglas-fir></app-american-duglas-fir>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='מייפל הארד';">
+            <app-american-hard-maple></app-american-hard-maple>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='אלון אדום אמריקאי';">
+            <app-american-red-oak></app-american-red-oak>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='אלון לבן אמריקאי';">
+            <app-american-white-oak></app-american-white-oak>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='אורן קרולינה';">
+            <app-american-southern-yellow-pine></app-american-southern-yellow-pine>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='אגוז אמריקאי';">
+            <app-american-walnut></app-american-walnut>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='אשה אמריקאי';">
+            <app-american-white-ash></app-american-white-ash>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='פופלר אמריקאי';">
+            <app-american-yellow-poplar></app-american-yellow-poplar>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='בוק אירופאי';">
+            <app-european-beechwood></app-european-beechwood>
+        </div>
+        <div class="wood-text" *ngIf="imageNames[i]==='אלון אירופאי';">
+            <app-european-oak></app-european-oak>
+        </div>
         <div class="carousel-caption">
             <h3>{{imageNames[i]}}</h3>
         </div>
@@ -8,6 +47,4 @@
         </div>
     </ng-template>
 </ngb-carousel>
-<div  class="wood-text" *ngIf="currentImage!=='אגוז אפריקאי';">
-    <app-african-black-ofram></app-african-black-ofram>
-</div>
+<h3></h3>
