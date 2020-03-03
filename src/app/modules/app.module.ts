@@ -49,6 +49,7 @@ import { AmericanDuglasFirComponent } from '../components/heb/hardwood/american-
 import { AmericanCherryComponent } from '../components/heb/hardwood/american-cherry/american-cherry.component';
 import { AmericanHardMapleComponent } from '../components/heb/hardwood/american-hard-maple/american-hard-maple.component';
 import { FormsModule } from '@angular/forms';
+import { HardwoodTextStylesContainerComponent } from '../styles/hardwood-text-style-container';
 
 
 @NgModule({
@@ -88,7 +89,8 @@ import { FormsModule } from '@angular/forms';
     AmericanWalnutComponent,
     AmericanDuglasFirComponent,
     AmericanCherryComponent,
-    AmericanHardMapleComponent
+    AmericanHardMapleComponent,
+    HardwoodTextStylesContainerComponent
   ],
   imports: [
     BrowserModule,

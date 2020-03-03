@@ -1,0 +1,9 @@
+:host /deep/p { 
+    color: black;
+}
+:host /deep/div{
+    padding-top: 1.5rem;
+}
+:host /deep/p:nth-child(2){
+    font-weight: 600;
+}
