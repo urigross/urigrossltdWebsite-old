@@ -2,13 +2,19 @@
     <app-plywood-side-navbar (stringOutput)=getChildEvent($event)></app-plywood-side-navbar>
 </nav>
 <div class="plywood-text" *ngIf="imageName=='twin';">
-    <app-twin-heb class="plywoodText"></app-twin-heb>
+    <text-style1-container>
+        <app-twin-heb class="plywoodText"></app-twin-heb>
+    </text-style1-container>
 </div>
 <div class="plywood-text" *ngIf="imageName=='okoume';">
-    <app-okoume-heb class="plywoodText"></app-okoume-heb>
+    <text-style1-container>
+        <app-okoume-heb class="plywoodText"></app-okoume-heb>
+    </text-style1-container>
 </div>
 <div class="plywood-text" *ngIf="imageName=='birch';">
-    <app-birch-heb class="plywoodText"></app-birch-heb>
+    <text-style1-container>
+        <app-birch-heb class="plywoodText"></app-birch-heb>
+    </text-style1-container>
 </div>
 <div class="image-box" *ngIf="imageName;">
     <img class="image" src="../../../assets/images/plywoods/{{imageName}}-plywood.jpg">
