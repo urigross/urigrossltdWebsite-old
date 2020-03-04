@@ -1,0 +1,48 @@
+.carousel{
+    box-sizing: border-box;
+    float: right;
+    width: 100%;
+    margin-top: 15%;
+    height: 80%;
+}
+
+.wood-text{
+  box-sizing: border-box;
+  float: right;
+  margin-top: 5%;
+  text-align: center;
+  width: 50%;
+}
+img{
+    float: right;
+    width: 30%;
+    animation-duration: 1.4s;
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infnite;
+    animation-direction: alternate;     
+}
+
+.carousel-caption{
+  width: 100%;
+  padding-right: 35%;
+}
+
+.carousel-caption h3{
+
+  width: 46%;
+
+}
+@keyframes cf3FadeInOut {
+    0% {
+      opacity:0.3;
+    }
+    10% {
+        opacity: 0.4;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+ 

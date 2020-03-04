@@ -1,0 +1,9 @@
+export class Hardwood {
+    public readonly name: Array<string> = ['אגוז אפריקאי','אגוז אמריקאי','אורן קרולינה','אורן קליר','אלון אדום אמריקאי',
+    'אלון לבן אמריקאי','אלון אירופאי','בוק אירופאי','מייפל הארד','ספלי מהגוני','פופלר אמריקאי','שרי - דובדבן','אשה אמריקאי'];
+    // Altname uses also for path name!
+    public readonly altName: Array<string> =['African Black Ofram','American Walnut','American Southern yellow pine','American Duglas fir','American Red Oak',
+    'American White Oak','European Oak','European Beechwood','American Hard Maple','African Mahagoni Sapelli','American Yellow Poplar','American Cherry','American White Ash'];
+   
+    
+}
