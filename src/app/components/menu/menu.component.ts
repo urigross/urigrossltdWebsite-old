@@ -8,23 +8,28 @@ import { Location } from '@angular/common';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
-    private route: string;
-  constructor(location: Location, private router: Router) {
-      router.events.subscribe( val => {
-          if (location.path() !== '') {
-              this.route = location.path();
-      } else {
-          this.route = 'home';
-      }
-    });
-   }
+  public route: string = window.location.pathname;
+  //   private route: string;
+  // constructor(location: Location, private router: Router) {
+  //   // Gets the current route.
+  //     router.events.subscribe( val => {
+  //         if (location.path() !== '') {
+  //             this.route = location.path();
+  //     } else {
+  //         this.route = 'home';
+  //     }
+  //   });
+  //  }
 
   ngOnInit() {
+    // console.log(`current route is: ${window.location.pathname}`);
 
   }
 // switches color according to routing
   private  toggleColorAboutRouting(): string {
-      return this.route === '/heb/about' ?  'white' :  'initial';
+      // return this.route === '/heb/about' ?  'white' :  'initial';
+      return window.location.pathname === '/heb/about' ?  'white' :  'initial';
+
   }
 }
 
