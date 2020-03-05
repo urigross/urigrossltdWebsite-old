@@ -1,0 +1,35 @@
+/* for side menus */
+
+:host /deep/ul 
+    {
+    text-align: right;
+    list-style-type: none;
+    margin-right: 0px;
+    padding: 0;
+    overflow: visible;
+    }
+    :host /deep/li
+    {
+    padding-top: 25px;
+    float: none;
+    
+    }
+  
+    :host /deep/li a  
+{
+    display: block;
+    color: rgba(46, 23, 4, 0.74); 
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    border: 1px inset #3AA449;
+}
+
+:host /deep/li a:hover 
+{
+    /* border-radius: 40px; */
+  }
+  
+  
+  

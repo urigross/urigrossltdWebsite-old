@@ -1,5 +1,7 @@
 <nav class="sidebar">
+    <text-style2-container>
     <app-mdf-side-navbar (stringOutput)=getChildEvent($event)></app-mdf-side-navbar>
+    </text-style2-container>
 </nav>
 <div class="description-text" *ngIf="imageName=='mdf';">
     <app-mdf (stringOutput)=getChildEvent($event)></app-mdf>
