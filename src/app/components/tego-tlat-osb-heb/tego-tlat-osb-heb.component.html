@@ -1,1 +1,20 @@
-<p>tego-tlat-osb-heb works!</p>
+<nav class="sidebar">
+    <text-style2-container>
+    <app-tego-shuttering-panels-sidebar (stringOutput)=getChildEvent($event)></app-tego-shuttering-panels-sidebar>
+    </text-style2-container>
+</nav>
+<div class="description-text" *ngIf="imageName=='tego';">
+    <text-style1-container>
+        <app-tego-text class="tegoText"></app-tego-text>
+    </text-style1-container>
+</div>
+<div class="description-text" *ngIf="imageName=='tlat';">
+    <text-style1-container>
+        <app-shuttering-panels-text class="tlatText"></app-shuttering-panels-text>
+    </text-style1-container>
+</div>
+<div class="image-box" *ngIf="imageName;">
+    <!-- <img class="image" src="../../../assets/images/plywoods/{{imageName}}.jpg"> -->
+    <img class="image" src="../../../assets/images/tego-tlat//{{imageName}}.jpg" alt="{{imageName}} plywood">
+
+</div>

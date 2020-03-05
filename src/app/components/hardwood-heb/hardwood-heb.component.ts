@@ -17,8 +17,8 @@ export class HardwoodHebComponent implements OnInit {
   unpauseOnArrow: boolean = false;
   paused: boolean = false;
   pauseOnHover: boolean = true;
-  public selectedImage: string ='';
-  public componentOutlet='app-african-black-ofram';
+  // public selectedImage: string ='';
+  // public componentOutlet='app-african-black-ofram';
 
   constructor(private imageService: ImageService) {
 

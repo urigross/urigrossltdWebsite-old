@@ -1,9 +1,10 @@
-.sidebar, .image-box, .mdf-text, img{
+.sidebar, .image-box, .description-text, img{
     box-sizing: border-box;
     float: right;
 }
 
-.sidebar, .image-box, .mdf-text{
+.sidebar, .image-box, .description-text{
+    text-align: right;
     padding-top: 150px;
 }
 
@@ -14,7 +15,7 @@
 
 
 
-.image-box, .mdf-text {
+.image-box, .description-text {
     width: 40%;
 
 }
@@ -28,7 +29,7 @@ img{
     padding-right: 100px;
 }
 
-.mdf-text{
+.decription-text{
     text-align: right;
     padding-right: 100px;
 }

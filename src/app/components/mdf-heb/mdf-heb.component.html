@@ -1,17 +1,28 @@
 <nav class="sidebar">
+    <text-style2-container>
     <app-mdf-side-navbar (stringOutput)=getChildEvent($event)></app-mdf-side-navbar>
+    </text-style2-container>
 </nav>
-<div class="mdf-text" *ngIf="imageName=='mdf';">
+<div class="description-text" *ngIf="imageName=='mdf';">
     <app-mdf (stringOutput)=getChildEvent($event)></app-mdf>
 </div>
-<div class="mdf-text" *ngIf="imageName=='mdf-mr';">
-    <app-mdf-mr></app-mdf-mr>
-</div><div class="mdf-text" *ngIf="imageName=='mdf-mr-melamine';">
-    <app-mdf-mr-melamine></app-mdf-mr-melamine>
+<div class="description-text" *ngIf="imageName=='mdf-mr';">
+    <text-style1-container>
+        <app-mdf-mr></app-mdf-mr>
+    </text-style1-container>
 </div>
-<div class="mdf-text" *ngIf="imageName=='mdf-veneer';">
-    <app-mdf-veneer></app-mdf-veneer>
+<div class="description-text" *ngIf="imageName=='mdf-mr-melamine';">
+    <text-style1-container>
+        <app-mdf-mr-melamine></app-mdf-mr-melamine>
+    </text-style1-container>
+</div>
+<div class="description-text" *ngIf="imageName=='mdf-veneer';">
+    <text-style1-container>
+        <app-mdf-veneer></app-mdf-veneer>
+    </text-style1-container>
 </div>
 <div class="image-box" *ngIf="imageNameWithExt;">
-    <img class="image" src="../../../assets/images/mdf/{{imageNameWithExt}}">
+    <text-style1-container>
+        <img class="image" src="../../../assets/images/mdf/{{imageNameWithExt}}" alt="{{imageName}} mdf">
+    </text-style1-container>
 </div>

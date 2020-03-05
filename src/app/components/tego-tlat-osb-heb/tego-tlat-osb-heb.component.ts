@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tego-tlat-osb-heb.component.css']
 })
 export class TegoTlatOsbHebComponent implements OnInit {
+  imageName: string;
+  getChildEvent($event){
+    this.imageName=$event;
+  }
+  
 
   constructor() { }
 

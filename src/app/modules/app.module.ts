@@ -49,7 +49,11 @@ import { AmericanDuglasFirComponent } from '../components/heb/hardwood/american-
 import { AmericanCherryComponent } from '../components/heb/hardwood/american-cherry/american-cherry.component';
 import { AmericanHardMapleComponent } from '../components/heb/hardwood/american-hard-maple/american-hard-maple.component';
 import { FormsModule } from '@angular/forms';
-import { HardwoodTextStylesContainerComponent } from '../styles/hardwood-text-style-container';
+import { TextStyle1ContainerComponent } from '../styles/text-style1-container';
+import { TextStyle2ContainerComponent } from '../styles/style2/text-style2-container';
+import { TegoShutteringPanelsSidebarComponent } from '../components/heb/tego-and-shuttering-panels/tego-shuttering-panels-sidebar/tego-shuttering-panels-sidebar.component';
+import { TegoTextComponent } from '../components/heb/tego-and-shuttering-panels/tego-text/tego-text.component';
+import { ShutteringPanelsTextComponent } from '../components/heb/tego-and-shuttering-panels/shuttering-panels-text/shuttering-panels-text.component';
 
 
 @NgModule({
@@ -90,7 +94,11 @@ import { HardwoodTextStylesContainerComponent } from '../styles/hardwood-text-st
     AmericanDuglasFirComponent,
     AmericanCherryComponent,
     AmericanHardMapleComponent,
-    HardwoodTextStylesContainerComponent
+    TextStyle1ContainerComponent,
+    TextStyle2ContainerComponent,
+    TegoShutteringPanelsSidebarComponent,
+    TegoTextComponent,
+    ShutteringPanelsTextComponent
   ],
   imports: [
     BrowserModule,

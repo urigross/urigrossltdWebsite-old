@@ -7,7 +7,6 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class MdfSideNavbarComponent implements OnInit {
 @Output() stringOutput = new EventEmitter<string>();
-// todo: something is not working with link to mdf-mr check with console.log ... 
 sendChoiceToParent(value:string){
   this.stringOutput.emit(value);
 }

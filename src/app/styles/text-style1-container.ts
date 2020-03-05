@@ -1,9 +1,9 @@
 import {Component} from '@angular/core'
 
 @Component({
-  selector: 'hardwood-text-styles-container',
+  selector: 'text-style1-container',
   template: `<ng-content> </ng-content>`,
   styleUrls: ["shared.style.css"]
 })
-export class HardwoodTextStylesContainerComponent {
+export class TextStyle1ContainerComponent {
 }

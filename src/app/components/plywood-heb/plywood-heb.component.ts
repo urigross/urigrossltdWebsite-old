@@ -10,7 +10,6 @@ export class PlywoodHebComponent implements OnInit {
   imageName: string;
   getChildEvent($event){
     this.imageName=$event;
-    console.log(this.imageName);
   }
   
   constructor() { }
