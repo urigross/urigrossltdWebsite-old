@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-heb.component.css']
 })
 export class ContactHebComponent implements OnInit {
-
-  constructor() { }
-
+  
+  constructor() {
+  }
+  
   ngOnInit() {
   }
-
 }

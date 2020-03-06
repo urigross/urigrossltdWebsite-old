@@ -1,0 +1,26 @@
+.agents, .map-responsive {
+    float: right;
+    
+}
+.agents {
+    width: 86%;
+    text-align: right;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+
+.map-responsive{
+    padding-bottom:51.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    right:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+

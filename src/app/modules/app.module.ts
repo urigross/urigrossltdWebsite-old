@@ -6,7 +6,6 @@ import { FooterComponent } from '../components/footer/footer.component';
 import { GalleryComponent } from '../components/gallery/gallery.component';
 import { AboutHebComponent } from '../components/about-heb/about-heb.component';
 import { ContactHebComponent } from '../components/contact-heb/contact-heb.component';
-import { WazeComponent } from '../components/waze/waze.component';
 import { MenuComponent } from '../components/menu/menu.component';
 import { RoutingModule } from './routing.module';
 import { RouterModule } from '@angular/router';
@@ -68,7 +67,6 @@ import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component
     GalleryComponent,
     AboutHebComponent,
     ContactHebComponent,
-    WazeComponent,
     MenuComponent,
     Page404Component,
     PlywoodHebComponent,
