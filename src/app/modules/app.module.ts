@@ -54,9 +54,10 @@ import { TextStyle2ContainerComponent } from '../styles/style2/text-style2-conta
 import { TegoShutteringPanelsSidebarComponent } from '../components/heb/tego-and-shuttering-panels/tego-shuttering-panels-sidebar/tego-shuttering-panels-sidebar.component';
 import { TegoTextComponent } from '../components/heb/tego-and-shuttering-panels/tego-text/tego-text.component';
 import { ShutteringPanelsTextComponent } from '../components/heb/tego-and-shuttering-panels/shuttering-panels-text/shuttering-panels-text.component';
-import { FjOsbHebComponent } from '../components/fingerjoint-osb/fj-osb-heb/fj-osb-heb.component';
 import { FjTextComponent } from '../components/heb/fj-osb/fj-text/fj-text.component';
 import { OsbTextComponent } from '../components/heb/fj-osb/osb-text/osb-text.component';
+import { FjOsbSideMenuComponent } from '../components/heb/fj-osb/fj-osb-side-menu/fj-osb-side-menu.component';
+import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component';
 
 
 @NgModule({
@@ -102,9 +103,10 @@ import { OsbTextComponent } from '../components/heb/fj-osb/osb-text/osb-text.com
     TegoShutteringPanelsSidebarComponent,
     TegoTextComponent,
     ShutteringPanelsTextComponent,
-    FjOsbHebComponent,
     FjTextComponent,
-    OsbTextComponent
+    OsbTextComponent,
+    FjOsbSideMenuComponent,
+    FjOsbHebComponent
   ],
   imports: [
     BrowserModule,

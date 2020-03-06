@@ -10,6 +10,8 @@ import { MdfHebComponent } from '../components/mdf-heb/mdf-heb.component';
 import { TegoTlatOsbHebComponent } from '../components/tego-tlat-osb-heb/tego-tlat-osb-heb.component';
 import { HardwoodHebComponent } from '../components/hardwood-heb/hardwood-heb.component';
 import { MapHebComponent } from '../components/map-heb/map-heb.component';
+import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component';
+
 
 const routes: Routes = [
     { path: 'heb/home', component: HomeHebComponent},
@@ -18,7 +20,7 @@ const routes: Routes = [
     { path: 'heb/mdf', component: MdfHebComponent},
     { path: 'heb/hardwood', component: HardwoodHebComponent},
     { path: 'heb/plywood2', component: TegoTlatOsbHebComponent},
-    
+    { path: 'heb/plywood3', component: FjOsbHebComponent},
     { path: 'heb/contact', component: ContactHebComponent},
     { path: 'heb/map', component: MapHebComponent},
     { path: 'heb/gallery', component: GalleryComponent},

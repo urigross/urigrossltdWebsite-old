@@ -1,1 +1,19 @@
-<p>fj-osb-heb works!</p>
+
+<nav class="sidebar">
+    <text-style2-container>
+        <app-fj-osb-side-menu (stringOutput)=getChildEvent($event)></app-fj-osb-side-menu>
+    </text-style2-container>
+</nav>
+<div class="description-text" *ngIf="imageName=='fj';">
+    <text-style1-container>
+        <app-fj-text></app-fj-text>
+    </text-style1-container>
+</div>
+<div class="description-text" *ngIf="imageName=='osb';">
+    <text-style1-container>
+        <app-osb-text></app-osb-text>
+    </text-style1-container>
+</div>
+<div class="image-box" *ngIf="imageName;">
+    <img class="image" src="../../../assets/images/butcher-osb/{{imageName}}.jpg" alt="{{imageName}} plywood">
+</div>

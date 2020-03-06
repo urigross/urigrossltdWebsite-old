@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fj-osb-heb.component.css']
 })
 export class FjOsbHebComponent implements OnInit {
+  imageName:string;
+  getChildEvent($event){
+    this.imageName=$event;
+    console.log("imagename: "+this.imageName);
+  }
 
   constructor() { }
 
