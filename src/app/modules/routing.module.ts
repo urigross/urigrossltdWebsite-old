@@ -18,6 +18,7 @@ const routes: Routes = [
     { path: 'heb/mdf', component: MdfHebComponent},
     { path: 'heb/hardwood', component: HardwoodHebComponent},
     { path: 'heb/plywood2', component: TegoTlatOsbHebComponent},
+    
     { path: 'heb/contact', component: ContactHebComponent},
     { path: 'heb/map', component: MapHebComponent},
     { path: 'heb/gallery', component: GalleryComponent},
