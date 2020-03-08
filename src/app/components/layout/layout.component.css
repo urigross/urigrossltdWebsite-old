@@ -27,9 +27,7 @@
 /* todo: Make footer stick to the button */
 #footer
 {
-    visibility: hidden;
     box-sizing: border-box;
     float: right;
-    margin-top: 140px;
     text-align: center;
 }

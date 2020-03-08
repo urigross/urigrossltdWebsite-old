@@ -34,7 +34,7 @@ li
         box-sizing: border-box;
         color: rgba(46, 23, 4, 0.74); /*Menu text color*/
         text-align: center;
-        padding: 0px 25px;  /* space between menu items */
+        padding: 0px 1.1rem;  /* space between menu items */
         text-decoration: none;
     }
     
