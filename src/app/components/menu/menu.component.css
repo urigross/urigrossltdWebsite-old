@@ -1,23 +1,26 @@
+.menu-buttons, .menu-logo{
+  box-sizing: border-box;
+  float: right;
+
+}
+
 .menu-buttons
 {
-    box-sizing: border-box;
-    float: right;
-    text-align: center;
+    width: 60%;
+    text-align: right;
     list-style-type: none;
     /* margin-right: 450px;
     padding: 0; */
     overflow: visible;
-    width: 75%;
-    padding-right: 8.5em;
-    padding-top: 3.1em;
+    margin-right: 10%;
+    padding-top: 4.5%;
     font-size: 1.3em;
 
     }
 
 .menu-logo{
-    float: right;
     /* background-color: green; */
-    margin-top: -0.5em;
+    margin-top: -0.9%;
     width: 25%;
 }
 
@@ -52,15 +55,17 @@ li
     text-decoration: none;
   }
   
-  li a:hover, .dropdown:hover .dropbtn 
+  li a:hover, .dropdown:hover .dropbtn,.phone a:hover
   {
-    box-sizing: border-box;
 
     font-weight: bolder;
   }
   
+  
+
+  
   li.dropdown {
-    display: inline-block;   /*dropdown menu positioning at main-menu */
+    display: inline;   /*dropdown menu positioning at main-menu */
   }
   
   .dropdown-content {
