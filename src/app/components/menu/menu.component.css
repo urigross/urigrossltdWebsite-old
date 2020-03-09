@@ -1,71 +1,72 @@
 .menu-buttons, .menu-logo{
   box-sizing: border-box;
   float: right;
-
+  
 }
 
 .menu-buttons
 {
-    width: 60%;
-    text-align: right;
-    list-style-type: none;
-    /* margin-right: 450px;
-    padding: 0; */
-    overflow: visible;
-    margin-right: 10%;
-    padding-top: 4.5%;
-    font-size: 1.3em;
-
-    }
+  width: 60%;
+  text-align: right;
+  list-style-type: none;
+  /* margin-right: 450px;
+  padding: 0; */
+  overflow: visible;
+  margin-right: 10%;
+  padding-top: 4.5%;
+  font-size: 1.3em;
+  
+}
 
 .menu-logo{
-    /* background-color: green; */
-    margin-top: -0.9%;
-    width: 25%;
+  /* background-color: green; */
+  margin-top: -0.9%;
+  width: 25%;
 }
 
 li
-    {
-    box-sizing: border-box;
-    /* background-color: orange; */
-    float: right;
-    }
+{
+  box-sizing: border-box;
+  /* background-color: orange; */
+  float: right;
+}
 
-    
-    li a
-    {
-        box-sizing: border-box;
-        color: rgba(46, 23, 4, 0.74); /*Menu text color*/
-        text-align: center;
-        padding: 0px 1.1rem;  /* space between menu items */
-        text-decoration: none;
-    }
-    
-    .phone a {
-        padding-left: 0px;
-    }
-  
+
+li a
+{
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0px 1.1rem;  /* space between menu items */
+  /* text-decoration: none; */
+}
+
+.phone a {
+  padding-left: 0px;
+}
+
+.m-btn, .phone a, .dropdown-content{
+  color: rgba(46, 23, 4, 0.74); /*Menu text color*/
+
+}
 .dropbtn 
 {
+  color: rgba(46, 23, 4, 0.74); /*Menu text color*/
     box-sizing: border-box;
     /* display: inline-block; */
-    color: rgba(46, 23, 4, 0.74); /*Menu text color*/
     text-align: center;
     padding: 4px 16px;
     text-decoration: none;
   }
   
-  li a:hover, .dropdown:hover .dropbtn,.phone a:hover
-  {
-
-    font-weight: bolder;
+  .the-chosen-one {
+    font-weight: bold;
   }
-  
+ 
   
 
   
   li.dropdown {
-    display: inline;   /*dropdown menu positioning at main-menu */
+    display: inline-block;   /*dropdown menu positioning at main-menu */
   }
   
   .dropdown-content {
@@ -81,7 +82,7 @@ li
     color: black;
     margin-top: 0;
     padding: 4px 16px;
-    text-decoration: none;
+    /* text-decoration: none; */
     display: block;
     text-align: right;
   }

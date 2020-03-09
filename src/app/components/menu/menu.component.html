@@ -1,9 +1,9 @@
 <ul class="menu-buttons">
     <div>
-        <li><a routerLink="/heb/home">ראשי</a></li>
-        <li><a routerLink="/heb/about">אודות</a></li>
+        <li><a class="m-btn" routerLink="/heb/home" routerLinkActive="the-chosen-one">ראשי</a></li>
+        <li><a class="m-btn" routerLink="/heb/about" routerLinkActive="the-chosen-one">אודות</a></li>
         <li class="dropdown">
-            <a href="javascript:void(0)">מוצרים</a>
+            <a class="m-btn" href="javascript:void(0)">מוצרים</a>
             <div class="dropdown-content">
                 <a routerLink="/heb/plywood1" [style.background-color]="toggleColorAboutRouting()">לבידים</a>
                 <a routerLink="/heb/mdf" [style.background-color]="toggleColorAboutRouting()">מדפ</a>
@@ -12,8 +12,8 @@
                 <a routerLink="/heb/plywood3" [style.background-color]="toggleColorAboutRouting()">בוצ'ר \ osb</a>
             </div>
         </li>
-        <li><a routerLink="/heb/contact">צור קשר</a></li>
-        <li><a routerLink="/heb/map">דרכי הגעה</a></li>
+        <li><a class="m-btn" routerLink="/heb/contact" routerLinkActive="the-chosen-one">צור קשר</a></li>
+        <li><a class="m-btn" routerLink="/heb/map" routerLinkActive="the-chosen-one">דרכי הגעה</a></li>
         <li class="phone"><a href="tel:088564377">התקשר: 08-8564377</a>
         </li>
     </div>
