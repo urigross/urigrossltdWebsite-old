@@ -47,7 +47,8 @@ import { AmericanWalnutComponent } from '../components/heb/hardwood/american-wal
 import { AmericanDuglasFirComponent } from '../components/heb/hardwood/american-duglas-fir/american-duglas-fir.component';
 import { AmericanCherryComponent } from '../components/heb/hardwood/american-cherry/american-cherry.component';
 import { AmericanHardMapleComponent } from '../components/heb/hardwood/american-hard-maple/american-hard-maple.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+  //  FormControl, FormGroupDirective, NgForm, Validators } from '@angular/forms';
 import { TextStyle1ContainerComponent } from '../styles/text-style1-container';
 import { TextStyle2ContainerComponent } from '../styles/style2/text-style2-container';
 import { TegoShutteringPanelsSidebarComponent } from '../components/heb/tego-and-shuttering-panels/tego-shuttering-panels-sidebar/tego-shuttering-panels-sidebar.component';
@@ -57,6 +58,9 @@ import { FjTextComponent } from '../components/heb/fj-osb/fj-text/fj-text.compon
 import { OsbTextComponent } from '../components/heb/fj-osb/osb-text/osb-text.component';
 import { FjOsbSideMenuComponent } from '../components/heb/fj-osb/fj-osb-side-menu/fj-osb-side-menu.component';
 import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component';
+
+
+
 
 
 @NgModule({
@@ -104,7 +108,9 @@ import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component
     FjTextComponent,
     OsbTextComponent,
     FjOsbSideMenuComponent,
-    FjOsbHebComponent
+    FjOsbHebComponent,
+     
+    
   ],
   imports: [
     BrowserModule,
@@ -119,7 +125,13 @@ import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component
     MatListModule,
     MatSidenavModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
+    // Validators,
+    // NgForm,
+    // FormControl, 
+    // FormGroupDirective
+    
 
   ],
   providers: [Hardwood],

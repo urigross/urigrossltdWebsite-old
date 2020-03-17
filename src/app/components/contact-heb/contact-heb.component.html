@@ -1,5 +1,36 @@
-<div>
-</div>
+<div class="background-wallpaper">
+    <form action="mailto:example@com" method="POST" enctype="multipart/form-data" name="EmaiTestForm">
+        <h1>צור עמנו קשר</h1>
+        <div class="first-name">
+            <mat-form-field appearance="fill">
+                <input matInput type="text" placeholder="שם פרטי" [formControl]="firstName" required name="firstName"
+                    autofocus>
+                <mat-error *ngIf="firstName.invalid">{{getFirstNameErrorMessage()}}</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="last-name">
+            <mat-form-field appearance="fill">
+                <input matInput type="text" placeholder="שם משפחה" [formControl]="lastName" required name="lastName">
+                <mat-error *ngIf="lastName.invalid">{{getLastNameErrorMessage()}}</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="telephone">
+            <mat-form-field appearance="fill">
+                <input matInput type="text" placeholder="טלפון" [formControl]="telephone" required name="telephone">
+                <mat-error *ngIf="telephone.invalid">{{getTelephoneErrorMessage()}}</mat-error>
+            </mat-form-field>
+        </div>
+
+        <div class="email-container">
+            <mat-form-field appearance="fill">
+                <input matInput type="email" placeholder="כתובת מייל" [formControl]="email" required name="email">
+                <mat-error *ngIf="email.invalid">{{getEmailErrorMessage()}}</mat-error>
+            </mat-form-field>
+        </div>
+        <button type="submit" class="btn btn-primary btn-raised">שלח</button>
+</form>
+
+
 <!-- <div class="agents">
     <h2>הסוכנים שלנו:</h2>
     <h3>איזור הצפון: תמיר 052-8677300 אבי 052-3963499</h3>
@@ -16,6 +47,6 @@ contact form
 telephones
 address 
 
-create a component name
+create a component  
 
 -->
