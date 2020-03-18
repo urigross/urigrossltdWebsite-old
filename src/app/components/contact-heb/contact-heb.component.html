@@ -1,6 +1,8 @@
 <div class="background-wallpaper">
-    <form action="mailto:example@com" method="POST" enctype="multipart/form-data" name="EmaiTestForm">
+        <form ngNoForm action="mailto:ashdod@urigross.co.il" method="POST" enctype="text/plain">
+
         <h1>צור עמנו קשר</h1>
+        <div class="contact-form"></div>
         <div class="first-name">
             <mat-form-field appearance="fill">
                 <input matInput type="text" placeholder="שם פרטי" [formControl]="firstName" required name="firstName"
@@ -27,9 +29,21 @@
                 <mat-error *ngIf="email.invalid">{{getEmailErrorMessage()}}</mat-error>
             </mat-form-field>
         </div>
-        <button type="submit" class="btn btn-primary btn-raised">שלח</button>
+        <!-- <button>שלח</button> -->
+        <input class="submit" type="submit" value="שלח">
 </form>
+<!-- 
 
+<form class="testForm" #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+    <input name="first" ngModel required #first="ngModel">
+    <input name="last" ngModel>
+    <button>Submit</button>
+</form>
+  
+  <p>First name value: {{ first.value }}</p>
+  <p>First name valid: {{ first.valid }}</p>
+  <p>Form value: {{ f.value | json }}</p>
+  <p>Form valid: {{ f.valid }}</p> -->
 
 <!-- <div class="agents">
     <h2>הסוכנים שלנו:</h2>

@@ -34,15 +34,16 @@ mat-error{
 }
 
 .contact-form{
- background-color: gray;
- opacity: 0.7;
- height: 60vh;
+ background-color:white;
+ margin-top:25vh;
+ opacity: 0.3;
+ height: 50vh;
  width: 60vw;
 }
 
 h1{
  position: absolute;
- top: 25vh;
+ top: 20vh;
  right: 45vw;
 }
 
@@ -52,7 +53,7 @@ h1{
 
 .first-name, .last-name{
  position: absolute;
- top: 35vh;
+ top: 40vh;
 }
 
 .first-name{
@@ -60,6 +61,11 @@ right: 30vw;
 }
 
 .last-name{
- margin-right: 5vw;
+ margin-right: 25vw;
+}
+
+button , .submit{
+  position: absolute;
+  top:75vh;
 }
 

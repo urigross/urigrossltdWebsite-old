@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { FormControl, Validators} from '@angular/forms';
+import { Component, OnInit } from '@angular/core';
+import { FormControl, Validators, NgForm} from '@angular/forms';
+import { format } from 'url';
 
 
 @Component({
@@ -40,4 +41,6 @@ export class ContactHebComponent {
 
     return this.telephone.hasError('required') ? 'לא הוזן מספר טלפון' : '';
   }
+
+  
 }
