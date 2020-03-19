@@ -21,10 +21,13 @@
                 <input matInput type="text" placeholder="טלפון" [formControl]="telephone" required name="telephone">
                 <mat-error *ngIf="telephone.invalid">{{getTelephoneErrorMessage()}}</mat-error>
             </mat-form-field>
+            <svg class="prefix-seperator" height="4" width="20">
+                <line x1="0" y1="0" x2="15" y2="0" style="stroke:rgba(15, 3, 3, 0.479);stroke-width:3" />
+              </svg>
         </div>
         <div class="prefix"> 
             <mat-form-field class="prefix-line">
-                <mat-form-label>קידומת</mat-form-label>
+                <mat-label>קידומת</mat-label>
                 <select matNativeControl required>
                     <option value=""></option>
                     <option value="03">03</option>
@@ -42,12 +45,19 @@
 
         <div class="email-container">
             <mat-form-field appearance="fill" class="email-line">
-                <input matInput type="email" placeholder="כתובת מייל" [formControl]="email" required name="email">
+                <input matInput type="email" placeholder="כתובת מייל" required name="email">
                 <!-- <mat-error *ngIf="email.invalid">{{getEmailErrorMessage()}}</mat-error> -->
             </mat-form-field>
         </div>
         <!-- <button>שלח</button> -->
         <input class="submit" type="submit" value="שלח">
+        <div class="contact-message-container">
+            <mat-form-field appearance="fill" class="contact-message-line">
+                <mat-label>הודעה לשליחה</mat-label>
+                <textarea matInput type="textarea" placeholder="טקסט להודעה.." [formControl]="contactMessage" required name="contactMessage"></textarea>
+                <mat-error *ngIf="contactMessage.invalid">{{getContactMessageErrorMessage()}}</mat-error>
+            </mat-form-field>
+        </div>
 </form>
 <!-- 
 
