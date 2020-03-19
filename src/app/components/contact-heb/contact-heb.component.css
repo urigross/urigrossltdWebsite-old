@@ -51,17 +51,32 @@ h1{
  position: absolute;
 }
 
-.first-name, .last-name{
+.first-name, .last-name ,.telephone{
  position: absolute;
  top: 40vh;
 }
 
+.prefix{
+  position: absolute;
+  top: 37.9vh;
+  right: 46vw;
+}
+
 .first-name{
-right: 30vw;
+right: 15vw;
 }
 
 .last-name{
- margin-right: 25vw;
+  margin-right: 8vw;
+}
+
+.first-name-line, .last-name-line, .telephone-line{
+  width: 50%;
+}
+
+
+.telephone{
+  margin-right: 17vw;
 }
 
 button , .submit{
@@ -69,3 +84,7 @@ button , .submit{
   top:75vh;
 }
 
+.prefix-line{
+width: 25%;
+line-height: 150%;
+}

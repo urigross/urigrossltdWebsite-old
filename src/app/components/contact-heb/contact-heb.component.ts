@@ -9,37 +9,45 @@ import { format } from 'url';
   styleUrls: ['./contact-heb.component.css']
 })
 export class ContactHebComponent {
-  email = new FormControl('', [Validators.required, Validators.email]);
-  firstName = new FormControl('', [Validators.required]);
-  lastName = new FormControl('', [Validators.required]);
+  // email = new FormControl('', [Validators.required, Validators.email]);
+  firstName = new FormControl('', [Validators.required,Validators.pattern("^[a-z\u0590-\u05fe]{2,20}")]);
+  lastName = new FormControl('', [Validators.required,Validators.pattern("^[a-z\u0590-\u05fe]{2,20}")]);
+  // lastName = new FormControl('', [Validators.required]);
   telephone = new FormControl('', [Validators.pattern("[0-9 ]{7}"), Validators.required]);
 
   getFirstNameErrorMessage() {
-    if (this.firstName.hasError('required')) {
-      return 'חובה לרשום שם פרטי';
+    if (this.firstName.hasError('pattern')){
+      return 'פורמט שם אינו תקין';
     }
-  }
-
-  getLastNameErrorMessage() {
-    if (this.lastName.hasError('required')) {
-      return 'חובה לרשום שם משפחה';
     }
-  }
+  
+    getLastNameErrorMessage() {
+      if (this.firstName.hasError('pattern')){
+        return 'פורמט שם אינו תקין';
+      }
+      }
+    
 
-  getEmailErrorMessage() {
-    if (this.email.hasError('required')) {
-      return 'חובה לרשום כתובת מייל';
-    }
+  // getLastNameErrorMessage() {
 
-    return this.email.hasError('email') ? 'כתובת המייל שהוזנה אינה תקינה' : '';
-  }
+  //   if (this.lastName.hasError('required')) {
+  //     return 'חובה לרשום שם משפחה';
+  //   }
+  // }
+
+  // getEmailErrorMessage() {
+  //   if (this.email.hasError('required')) {
+  //     return 'חובה לרשום כתובת מייל';
+  //   }
+
+  //   return this.email.hasError('email') ? 'כתובת המייל שהוזנה אינה תקינה' : '';
+  // }
 
   getTelephoneErrorMessage() {
     if (this.telephone.hasError('pattern') || this.telephone.hasError('minlength')) { // pay attention: lowe case because html 
       return 'נא הזן טלפון תקין בן 7 ספרות';
     }
 
-    return this.telephone.hasError('required') ? 'לא הוזן מספר טלפון' : '';
   }
 
   

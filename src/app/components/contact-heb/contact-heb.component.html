@@ -4,29 +4,46 @@
         <h1>צור עמנו קשר</h1>
         <div class="contact-form"></div>
         <div class="first-name">
-            <mat-form-field appearance="fill">
+            <mat-form-field appearance="fill" class="first-name-line">
                 <input matInput type="text" placeholder="שם פרטי" [formControl]="firstName" required name="firstName"
                     autofocus>
                 <mat-error *ngIf="firstName.invalid">{{getFirstNameErrorMessage()}}</mat-error>
             </mat-form-field>
         </div>
         <div class="last-name">
-            <mat-form-field appearance="fill">
+            <mat-form-field appearance="fill" class="last-name-line">
                 <input matInput type="text" placeholder="שם משפחה" [formControl]="lastName" required name="lastName">
                 <mat-error *ngIf="lastName.invalid">{{getLastNameErrorMessage()}}</mat-error>
             </mat-form-field>
         </div>
         <div class="telephone">
-            <mat-form-field appearance="fill">
+            <mat-form-field appearance="fill" class="telephone-line">
                 <input matInput type="text" placeholder="טלפון" [formControl]="telephone" required name="telephone">
                 <mat-error *ngIf="telephone.invalid">{{getTelephoneErrorMessage()}}</mat-error>
             </mat-form-field>
         </div>
+        <div class="prefix"> 
+            <mat-form-field class="prefix-line">
+                <mat-form-label>קידומת</mat-form-label>
+                <select matNativeControl required>
+                    <option value=""></option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="050">050</option>
+                    <option value="052">052</option>
+                    <option value="053">053</option>
+                    <option value="054">054</option>
+                    <option value="055">055</option>
+                </select>
+            </mat-form-field>
+        </div>
 
         <div class="email-container">
-            <mat-form-field appearance="fill">
+            <mat-form-field appearance="fill" class="email-line">
                 <input matInput type="email" placeholder="כתובת מייל" [formControl]="email" required name="email">
-                <mat-error *ngIf="email.invalid">{{getEmailErrorMessage()}}</mat-error>
+                <!-- <mat-error *ngIf="email.invalid">{{getEmailErrorMessage()}}</mat-error> -->
             </mat-form-field>
         </div>
         <!-- <button>שלח</button> -->
