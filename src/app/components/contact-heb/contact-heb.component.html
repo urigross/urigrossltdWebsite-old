@@ -1,12 +1,12 @@
 <div class="background-wallpaper">
         <form ngNoForm action="mailto:ashdod@urigross.co.il" method="POST" enctype="text/plain">
         <h1>צור עמנו קשר</h1>
-        <div class="contact-form"></div>
+        <!-- <div class="contact-form-background"></div> -->
+
         <div class="first-name">
             <mat-form-field appearance="fill" class="first-name-line">
                 <mat-label>שם פרטי</mat-label>
-                <input matInput type="text" [formControl]="firstName" required name="firstName"
-                    autofocus>
+                <input matInput type="text" [formControl]="firstName" required name="firstName" autofocus>
                 <mat-error *ngIf="firstName.invalid">{{getFirstNameErrorMessage()}}</mat-error>
             </mat-form-field>
         </div>
@@ -28,42 +28,32 @@
             <mat-form-field appearance="fill" class="email-line">
                 <mat-label>מייל</mat-label>
                 <input matInput type="email" name="email">
-                <!-- <mat-error *ngIf="email.invalid">{{getEmailErrorMessage()}}</mat-error> -->
             </mat-form-field>
         </div>
         <!-- <button>שלח</button> -->
-        <input class="submit" type="submit" value="שלח">
+        <input class="submit" type="submit" value="שלח הודעה">
         <div class="contact-message-container">
             <mat-form-field appearance="fill" class="contact-message-line">
                 <mat-label>הודעה לשליחה</mat-label>
                 <textarea matInput type="textarea" placeholder="טקסט להודעה.." [formControl]="contactMessage" 
                 required name="contactMessage"
-                cdkTextareaAutosize cdkAutosizeMinRows="1" cdkAutosizeMaxRows="5"></textarea>
+                cdkTextareaAutosize cdkAutosizeMinRows="12" cdkAutosizeMaxRows="15"></textarea>
                 <mat-error *ngIf="contactMessage.invalid">{{getContactMessageErrorMessage()}}</mat-error>
             </mat-form-field>
         </div>
 </form>
-<!-- 
 
-<form class="testForm" #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
-    <input name="first" ngModel required #first="ngModel">
-    <input name="last" ngModel>
-    <button>Submit</button>
-</form>
-  
-  <p>First name value: {{ first.value }}</p>
-  <p>First name valid: {{ first.valid }}</p>
-  <p>Form value: {{ f.value | json }}</p>
-  <p>Form valid: {{ f.valid }}</p> -->
-
-<!-- <div class="agents">
-    <h2>הסוכנים שלנו:</h2>
-    <h3>איזור הצפון: תמיר 052-8677300 אבי 052-3963499</h3>
-    <h3>איזור השרון המרכז והדרום: אורן 052-3963497 אייל 052-3963492</h3>
-    <h3>איזור ירושלים: אחמד 052-3963485</h3>
-    <h2>הנהלת חשבונות</h2>
-    <h3>משרד: 08-8564377</h3>
-</div> -->
+<div class="agents">
+    <h2>הסוכנים שלנו</h2>
+    <h3>צפון</h3>
+    <p>תמיר 052-8677300 אבי 052-3963499</p>
+    <h3>השרון \ המרכז \ הדרום</h3>
+    <p>אורן 052-3963497 אייל 052-3963492</p>
+    <h3>איזור ירושלים</h3>
+    <p>אחמד 052-3963485</p>
+    <h3>הנהלת חשבונות</h3>
+    <p>משרד: 08-8564377</p>
+</div>
 
 <!-- here will be contact us info includes:
 

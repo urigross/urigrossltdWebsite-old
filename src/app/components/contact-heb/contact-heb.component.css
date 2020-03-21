@@ -9,7 +9,7 @@
 }
 
  */
-
+ 
  .background-wallpaper{
   margin: 0 0 0 0;
   display: flex;
@@ -18,28 +18,41 @@
   min-height: 100vh;
   font-family: sans-serif;
   background: url("../../../assets/images/backgrounds/contact/euro-oak.jpg");
-  opacity: 1;
   background-size: cover;
   background-attachment: fixed;
 
 }
 
-.background-container .mat-form-field + .mat-form-field {
+/* .background-container .mat-form-field + .mat-form-field {
  margin-left: 8px;
-}
+} */
 
 mat-error{
  font-size: large;
  font-weight: bold;
 }
 
-.contact-form{
+.contact-form-background{
  background-color:white;
- margin-top:25vh;
+ position: absolute;
  opacity: 0.3;
+ top: 40vh;
+ right:9vw; 
  height: 50vh;
- width: 60vw;
+ width: 55vw;
+
 }
+
+/* .contact-message-background{
+  position: absolute;
+  background-color:white;
+  opacity: 0.3;
+  top: 40vh;
+  height: 50vh;
+  right: 9vw;
+  width: 55vw;
+ 
+ } */
 
 h1{
  position: absolute;
@@ -47,58 +60,83 @@ h1{
  right: 45vw;
 }
 
+mat-label{
+  font-size: larger;
+  font-weight: 700;
+}
 
-.first-name, .last-name ,.telephone, .email-container, .contact-message-container{
+mat-error{
+  color: black;
+}
+
+.first-name, .last-name ,.telephone, .email-container, .contact-message-container, .submit{
   position: absolute;
 }
 
-
-.first-name{
-  top: 40vh;
-  right: 15.5vw;
+.first-name, .last-name ,.telephone, .email-container, .contact-message-container{
+  text-align: right;
 }
 
-.first-name-line{
-  width: 50%;
-}
-
-.last-name{
-  top: 50vh;
+.first-name, .last-name ,.telephone, .email-container{
   right: 16vw;
 }
 
 
-.last-name-line{
-  width: 54%;
+.first-name{
+  top: 35vh;
 }
+
+/* .first-name-line{
+  width: 100%;
+} */
+
+/* .first-name-error{
+} */
+
+.last-name{
+  top: 49.3vh;
+}
+
+
+/* .last-name-line{
+  width: 54%;
+} */
 
 
 .telephone{
-  top: 60vh;
-  right: 15vw;
+  top: 63.66vh;
 }
 
-
+/* 
 .telephone-line{
   
   width: 70%;
-}
+} */
 
 .email-container{
- top: 70vh;
- right: 22vw;
+ top: 78vh;
 }
 
 .contact-message-container{
-  top: 50vh;
-  right: 50vw;
+  top: 35vh;
+  right: 35vw;
 }
 
 .contact-message-line {
   width: 200%;
 }
-button , .submit{
+.submit{
+  top:82vh;
+  right: 43vw;
+  width: 10%;
+
+}
+
+.agents{
   position: absolute;
-  top:75vh;
+  top: 35vh;
+  right: 75vw;
+  text-align: right;
+  font-weight: 600;
 }
 
