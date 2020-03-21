@@ -13,7 +13,7 @@ export class ContactHebComponent {
   firstName = new FormControl('', [Validators.pattern("^[a-zA-Z\u0590-\u05fe]{2,20}")]);
   lastName = new FormControl('', [Validators.pattern("^[a-zA-Z\u0590-\u05fe]{2,20}")]);
   // lastName = new FormControl('', [Validators.required]);
-  telephone = new FormControl('', [Validators.pattern("[0-9 ]{7}")]);
+  telephone = new FormControl('', [Validators.pattern("[0-9,\+\-].{9,13}")]);
   contactMessage = new FormControl('', [Validators.pattern("^[a-zA-Z\u0590-\u05fe]{2,100}")]);
 
   getFirstNameErrorMessage() {
@@ -30,8 +30,8 @@ export class ContactHebComponent {
     
 
   getTelephoneErrorMessage() {
-    if (this.telephone.hasError('pattern')) { // pay attention: lowe case because html 
-      return 'נא הזן טלפון תקין בן 7 ספרות';
+    if (this.telephone.hasError('pattern')) { // pay attention: lower case because html 
+      return 'נא הזן טלפון תקין';
     }
 
   }

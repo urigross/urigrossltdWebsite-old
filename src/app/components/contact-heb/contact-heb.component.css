@@ -47,50 +47,55 @@ h1{
  right: 45vw;
 }
 
-.email-container{
- position: absolute;
-}
 
-.first-name, .last-name ,.telephone, .prefix-sign{
- position: absolute;
- top: 40vh;
+.first-name, .last-name ,.telephone, .email-container, .contact-message-container{
+  position: absolute;
 }
 
 
 .first-name{
-  right: 15vw;
+  top: 40vh;
+  right: 15.5vw;
+}
+
+.first-name-line{
+  width: 50%;
 }
 
 .last-name{
-  margin-right: 8vw;
+  top: 50vh;
+  right: 16vw;
 }
 
-.first-name-line, .last-name-line{
-  width: 50%;
+
+.last-name-line{
+  width: 54%;
 }
 
 
 .telephone{
-  margin-right: 17vw;
+  top: 60vh;
+  right: 15vw;
 }
+
 
 .telephone-line{
-
-  width: 40%;
+  
+  width: 70%;
 }
 
-.prefix-seperator{
-  margin-right: 1em;
+.email-container{
+ top: 70vh;
+ right: 22vw;
 }
 
-.prefix{
-  position: absolute;
-  top: 37.7vh;
-  right: 46vw;
+.contact-message-container{
+  top: 50vh;
+  right: 50vw;
 }
-.prefix-line{
-width: 25%;
-line-height: 150%;
+
+.contact-message-line {
+  width: 200%;
 }
 button , .submit{
   position: absolute;
