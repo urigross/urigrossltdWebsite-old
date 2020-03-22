@@ -20,7 +20,7 @@
         <div class="telephone">
             <mat-form-field appearance="fill" class="telephone-line">
                 <mat-label>טלפון</mat-label>
-                <input matInput type="text" [formControl]="telephone" required name="telephone">
+                <input matInput type="tel" [formControl]="telephone" required name="telephone" maxlength="13" minlength="9">
                 <mat-error *ngIf="telephone.invalid">{{getTelephoneErrorMessage()}}</mat-error>
             </mat-form-field>
         </div>
@@ -36,7 +36,7 @@
             <mat-form-field appearance="fill" class="contact-message-line">
                 <mat-label>הודעה לשליחה</mat-label>
                 <textarea matInput type="textarea" placeholder="טקסט להודעה.." [formControl]="contactMessage" 
-                required name="contactMessage"
+                required name="contactMessage" maxlength="250"
                 cdkTextareaAutosize cdkAutosizeMinRows="12" cdkAutosizeMaxRows="15"></textarea>
                 <mat-error *ngIf="contactMessage.invalid">{{getContactMessageErrorMessage()}}</mat-error>
             </mat-form-field>
@@ -45,14 +45,22 @@
 
 <div class="agents">
     <h2>הסוכנים שלנו</h2>
-    <h3>צפון</h3>
-    <p>תמיר 052-8677300 אבי 052-3963499</p>
-    <h3>השרון \ המרכז \ הדרום</h3>
-    <p>אורן 052-3963497 אייל 052-3963492</p>
-    <h3>איזור ירושלים</h3>
-    <p>אחמד 052-3963485</p>
-    <h3>הנהלת חשבונות</h3>
-    <p>משרד: 08-8564377</p>
+    <div>
+    <h4>צפון</h4>
+        <a href="0523963499">אבי 052-3963499</a><a href="0528677300">תמיר 052-8677300</a>
+    </div>
+    <div>
+    <h4>השרון \ המרכז \ הדרום</h4>
+    <a href="tel:0523963497">אורן 052-3963497</a><a href="tel:0523963492">אייל 052-3963492</a>
+</div>
+    <div>
+    <h4>איזור ירושלים</h4>
+    <a href="0523963485">אחמד 052-3963485</a>
+</div>
+    <div>
+    <h4>הנהלת חשבונות</h4>
+    <a href="088564377">משרד: 08-8564377</a>
+</div>
 </div>
 
 <!-- here will be contact us info includes:

@@ -54,6 +54,8 @@ mat-error{
  
  } */
 
+
+
 h1{
  position: absolute;
  top: 20vh;
@@ -62,7 +64,7 @@ h1{
 
 mat-label{
   font-size: larger;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 mat-error{
@@ -119,7 +121,7 @@ mat-error{
 
 .contact-message-container{
   top: 35vh;
-  right: 35vw;
+  right: 33vw;
 }
 
 .contact-message-line {
@@ -127,16 +129,26 @@ mat-error{
 }
 .submit{
   top:82vh;
-  right: 43vw;
+  right: 41vw;
   width: 10%;
 
 }
 
 .agents{
   position: absolute;
-  top: 35vh;
-  right: 75vw;
+  top: 34vh;
+  right: 74vw;
   text-align: right;
   font-weight: 600;
 }
+.agents h2{
+  margin-bottom: 0.5em;
+}
 
+.agents div {
+  margin-bottom: 1em;
+}
+.agents a {
+  color: black;
+  margin-left: 1em;
+}
