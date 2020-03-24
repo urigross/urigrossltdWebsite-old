@@ -16,14 +16,12 @@
      margin-top: 2vh;
     margin-right: 13.8vw;
     width: 75.5%;
-    background-color: yellow;
 }
 .map-responsive iframe{
     width: 100%;
-    /* right:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute; */
+}
+
+a{
+    color: black;
 }
 

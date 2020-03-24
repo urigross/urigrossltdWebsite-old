@@ -58,7 +58,6 @@ import { FjTextComponent } from '../components/heb/fj-osb/fj-text/fj-text.compon
 import { OsbTextComponent } from '../components/heb/fj-osb/osb-text/osb-text.component';
 import { FjOsbSideMenuComponent } from '../components/heb/fj-osb/fj-osb-side-menu/fj-osb-side-menu.component';
 import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component';
-import { TestComponentComponent } from '../components/test-component/test-component.component';
 
 
 
@@ -109,8 +108,7 @@ import { TestComponentComponent } from '../components/test-component/test-compon
     FjTextComponent,
     OsbTextComponent,
     FjOsbSideMenuComponent,
-    FjOsbHebComponent,
-    TestComponentComponent,
+    FjOsbHebComponent
      
     
   ],

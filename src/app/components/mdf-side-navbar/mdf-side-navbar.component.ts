@@ -13,6 +13,9 @@ sendChoiceToParent(value:string){
   constructor() { }
 
   ngOnInit(): void {
+    // mouse click by element - In this case to load Twin as the first choice
+    let element: HTMLElement = document.getElementsByClassName('mdf')[0] as HTMLElement;
+    element.click();
   }
 
 }
