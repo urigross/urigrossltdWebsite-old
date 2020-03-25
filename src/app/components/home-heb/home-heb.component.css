@@ -12,7 +12,15 @@
         
         margin: -13% 0 -8% 0;
         width: 100%;
+        animation-name: fadeInAnimation;
+        animation-duration: 1s;
         
     }   
+  }
+
+  @keyframes fadeInAnimation {
+      from { opacity: 0;}
+      to { opacity: 1;}
+
   }
 
