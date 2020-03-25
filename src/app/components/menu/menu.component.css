@@ -1,3 +1,10 @@
+.menu-wrapper{
+  margin-top: 0%;
+  height: 100%;
+  animation-duration: 2s;
+  animation-name: jumpinAnimation;
+  background-color: yellow;
+}
 .menu-buttons, .menu-logo{
   box-sizing: border-box;
   float: right;
@@ -13,6 +20,8 @@
   margin-right: 10%;
   padding-top: 4.5%;
   font-size: 1.3em;
+  /* animation-name: jumpinAnimation;
+  animation-duration: 2sec; */
   
 }
 
@@ -94,3 +103,7 @@ li a
         padding-bottom: 1.5em;
   }
   
+@keyframes jumpinAnimation {
+  0% {margin-top: -10%; opacity: 0;}
+  100% {margin-top: 0%; opacity: 1;}
+}
