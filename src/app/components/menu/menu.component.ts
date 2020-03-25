@@ -33,7 +33,7 @@ export class MenuComponent implements OnInit {
   }
   private  toggleColorAboutRouting(): string {
       // return this.route === '/heb/about' ?  'white' :  'initial';
-      return (window.location.pathname === '/heb/about' || window.location.pathname === '/heb/home') ?  'white' :  'initial';
+      return (window.location.pathname === '/heb/contact' || window.location.pathname === '/heb/map' ) ?  'initial' :  'white';
 
   }
 }
