@@ -48,7 +48,6 @@ import { AmericanDuglasFirComponent } from '../components/heb/hardwood/american-
 import { AmericanCherryComponent } from '../components/heb/hardwood/american-cherry/american-cherry.component';
 import { AmericanHardMapleComponent } from '../components/heb/hardwood/american-hard-maple/american-hard-maple.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
-  //  FormControl, FormGroupDirective, NgForm, Validators } from '@angular/forms';
 import { TextStyle1ContainerComponent } from '../styles/text-style1-container';
 import { TextStyle2ContainerComponent } from '../styles/style2/text-style2-container';
 import { TegoShutteringPanelsSidebarComponent } from '../components/heb/tego-and-shuttering-panels/tego-shuttering-panels-sidebar/tego-shuttering-panels-sidebar.component';
@@ -127,10 +126,7 @@ import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component
     NgbModule,
     FormsModule,
     ReactiveFormsModule
-    // Validators,
-    // NgForm,
-    // FormControl, 
-    // FormGroupDirective
+    
     
 
   ],

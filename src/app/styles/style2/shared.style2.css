@@ -26,10 +26,9 @@
     border: 1px inset #3AA449;
 }
 
-:host /deep/li a:hover 
-{
-    /* border-radius: 40px; */
-  }
-  
+    :host /deep/button:focus{
+        font-weight: bolder;
+    }
+
   
   
