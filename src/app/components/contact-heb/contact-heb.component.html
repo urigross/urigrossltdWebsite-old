@@ -1,14 +1,73 @@
-<p>contact works!</p>
+<div class="background-wallpaper">
+        <form ngNoForm action="mailto:ashdod@urigross.co.il" method="POST">
+        <h1>צור עמנו קשר</h1>
+        <div class="first-name">
+            <mat-form-field appearance="fill" class="first-name-line">
+                <mat-label>שם פרטי</mat-label>
+                <input matInput type="text" [formControl]="firstName" required name="firstName" autofocus>
+                <mat-error *ngIf="firstName.invalid">{{getFirstNameErrorMessage()}}</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="last-name">
+            <mat-form-field appearance="fill" class="last-name-line">
+                <mat-label>שם משפחה</mat-label>   
+                <input matInput type="text" [formControl]="lastName" required name="lastName">
+                <mat-error *ngIf="lastName.invalid">{{getLastNameErrorMessage()}}</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="telephone">
+            <mat-form-field appearance="fill" class="telephone-line">
+                <mat-label>טלפון</mat-label>
+                <input matInput type="tel" [formControl]="telephone" required name="telephone" maxlength="13" minlength="9">
+                <mat-error *ngIf="telephone.invalid">{{getTelephoneErrorMessage()}}</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="email-container">
+            <mat-form-field appearance="fill" class="email-line">
+                <mat-label>מייל</mat-label>
+                <input matInput type="email" name="email">
+            </mat-form-field>
+        </div>
+        <!-- <button>שלח</button> -->
+        <input class="submit" type="submit" value="שלח הודעה">
+        <div class="contact-message-container">
+            <mat-form-field appearance="fill" class="contact-message-line">
+                <mat-label>הודעה לשליחה</mat-label>
+                <textarea matInput type="textarea" placeholder="טקסט להודעה.." [formControl]="contactMessage" 
+                required name="contactMessage" maxlength="250"
+                cdkTextareaAutosize cdkAutosizeMinRows="12" cdkAutosizeMaxRows="15"></textarea>
+                <mat-error *ngIf="contactMessage.invalid">{{getContactMessageErrorMessage()}}</mat-error>
+            </mat-form-field>
+        </div>
+</form>
+
+<div class="agents">
+    <h2>הסוכנים שלנו</h2>
+    <div>
+    <h4>צפון</h4>
+        <a href="0523963499">אבי 052-3963499</a><a href="0528677300">תמיר 052-8677300</a>
+    </div>
+    <div>
+    <h4>השרון \ המרכז \ הדרום</h4>
+    <a href="tel:0523963497">אורן 052-3963497</a><a href="tel:0523963492">אייל 052-3963492</a>
+</div>
+    <div>
+    <h4>איזור ירושלים</h4>
+    <a href="0523963485">אחמד 052-3963485</a>
+</div>
+    <div>
+    <h4>הנהלת חשבונות</h4>
+    <a href="088564377">משרד: 08-8564377</a>
+</div>
+</div>
+
 <!-- here will be contact us info includes:
-agents details
-googlemap component
-waze component
-waze plugin
+
 email
 contact form
 telephones
 address 
 
-create a component name
+create a component  
 
 -->

@@ -10,9 +10,25 @@ export class MdfSideNavbarComponent implements OnInit {
 sendChoiceToParent(value:string){
   this.stringOutput.emit(value);
 }
+
+clearMdfBtnFontweight() {
+  let element: HTMLElement = document.getElementsByClassName('mdf-btn')[0] as HTMLElement;
+  element.style.fontWeight = '400';
+}
+
+boldMdfBtnFontWeight() {
+  let element: HTMLElement = document.getElementsByClassName('mdf-btn')[0] as HTMLElement;
+  element.style.fontWeight = '700';
+}
+
   constructor() { }
 
   ngOnInit(): void {
+    // mouse click by element - In this case to load Twin as the first choice
+    let element: HTMLElement = document.getElementsByClassName('mdf-btn')[0] as HTMLElement;
+    element.click();
+    element.style.fontWeight = '700';
+
   }
 
 }

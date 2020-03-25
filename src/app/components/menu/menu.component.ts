@@ -26,9 +26,14 @@ export class MenuComponent implements OnInit {
 
   }
 // switches color according to routing
+  private toggleBoldProductsRouting():string {
+    return (window.location.pathname === '/heb/plywood1' || window.location.pathname === '/heb/mdf'
+    || window.location.pathname === '/heb/hardwood' || window.location.pathname === '/heb/plywood2'
+    || window.location.pathname === '/heb/plywood3' )? '700' : '400';
+  }
   private  toggleColorAboutRouting(): string {
       // return this.route === '/heb/about' ?  'white' :  'initial';
-      return window.location.pathname === '/heb/about' ?  'white' :  'initial';
+      return (window.location.pathname === '/heb/contact' || window.location.pathname === '/heb/map' ) ?  'initial' :  'white';
 
   }
 }

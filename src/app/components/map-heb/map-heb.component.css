@@ -1,0 +1,27 @@
+ .heading, .map-responsive{
+     float: right;
+     box-sizing: border-box;
+ }
+
+ .heading{
+     width: 100%;
+     text-align: center;
+     margin-top: 16vh;
+ }
+
+ .map-responsive,.map-responsive iframe{
+     height: 72vh;
+ }
+ .map-responsive{
+     margin-top: 2vh;
+    margin-right: 13.8vw;
+    width: 75.5%;
+}
+.map-responsive iframe{
+    width: 100%;
+}
+
+a{
+    color: black;
+}
+

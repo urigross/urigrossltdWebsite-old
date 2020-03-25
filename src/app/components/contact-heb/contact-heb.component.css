@@ -1,0 +1,154 @@
+/* 
+
+.agents {
+    float: right;
+    width: 86%;
+    text-align: right;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+ */
+ 
+ .background-wallpaper{
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: url("../../../assets/images/backgrounds/contact/euro-oak.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+/* .background-container .mat-form-field + .mat-form-field {
+ margin-left: 8px;
+} */
+
+mat-error{
+ font-size: large;
+ font-weight: bold;
+}
+
+.contact-form-background{
+ background-color:white;
+ position: absolute;
+ opacity: 0.3;
+ top: 40vh;
+ right:9vw; 
+ height: 50vh;
+ width: 55vw;
+
+}
+
+/* .contact-message-background{
+  position: absolute;
+  background-color:white;
+  opacity: 0.3;
+  top: 40vh;
+  height: 50vh;
+  right: 9vw;
+  width: 55vw;
+ 
+ } */
+
+
+
+h1{
+ position: absolute;
+ top: 20vh;
+ right: 45vw;
+}
+
+mat-label{
+  font-size: larger;
+  font-weight: 600;
+}
+
+mat-error{
+  color: black;
+}
+
+.first-name, .last-name ,.telephone, .email-container, .contact-message-container, .submit{
+  position: absolute;
+}
+
+.first-name, .last-name ,.telephone, .email-container, .contact-message-container{
+  text-align: right;
+}
+
+.first-name, .last-name ,.telephone, .email-container{
+  right: 16vw;
+}
+
+
+.first-name{
+  top: 35vh;
+}
+
+/* .first-name-line{
+  width: 100%;
+} */
+
+/* .first-name-error{
+} */
+
+.last-name{
+  top: 49.3vh;
+}
+
+
+/* .last-name-line{
+  width: 54%;
+} */
+
+
+.telephone{
+  top: 63.66vh;
+}
+
+/* 
+.telephone-line{
+  
+  width: 70%;
+} */
+
+.email-container{
+ top: 78vh;
+}
+
+.contact-message-container{
+  top: 35vh;
+  right: 33vw;
+}
+
+.contact-message-line {
+  width: 200%;
+}
+.submit{
+  top:82vh;
+  right: 41vw;
+  width: 10%;
+
+}
+
+.agents{
+  position: absolute;
+  top: 34vh;
+  right: 74vw;
+  text-align: right;
+  font-weight: 600;
+}
+.agents h2{
+  margin-bottom: 0.5em;
+}
+
+.agents div {
+  margin-bottom: 1em;
+}
+.agents a {
+  color: black;
+  margin-left: 1em;
+}

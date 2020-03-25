@@ -6,7 +6,6 @@ import { FooterComponent } from '../components/footer/footer.component';
 import { GalleryComponent } from '../components/gallery/gallery.component';
 import { AboutHebComponent } from '../components/about-heb/about-heb.component';
 import { ContactHebComponent } from '../components/contact-heb/contact-heb.component';
-import { WazeComponent } from '../components/waze/waze.component';
 import { MenuComponent } from '../components/menu/menu.component';
 import { RoutingModule } from './routing.module';
 import { RouterModule } from '@angular/router';
@@ -48,7 +47,7 @@ import { AmericanWalnutComponent } from '../components/heb/hardwood/american-wal
 import { AmericanDuglasFirComponent } from '../components/heb/hardwood/american-duglas-fir/american-duglas-fir.component';
 import { AmericanCherryComponent } from '../components/heb/hardwood/american-cherry/american-cherry.component';
 import { AmericanHardMapleComponent } from '../components/heb/hardwood/american-hard-maple/american-hard-maple.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { TextStyle1ContainerComponent } from '../styles/text-style1-container';
 import { TextStyle2ContainerComponent } from '../styles/style2/text-style2-container';
 import { TegoShutteringPanelsSidebarComponent } from '../components/heb/tego-and-shuttering-panels/tego-shuttering-panels-sidebar/tego-shuttering-panels-sidebar.component';
@@ -60,6 +59,9 @@ import { FjOsbSideMenuComponent } from '../components/heb/fj-osb/fj-osb-side-men
 import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component';
 
 
+
+
+
 @NgModule({
   declarations: [
     LayoutComponent,
@@ -68,7 +70,6 @@ import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component
     GalleryComponent,
     AboutHebComponent,
     ContactHebComponent,
-    WazeComponent,
     MenuComponent,
     Page404Component,
     PlywoodHebComponent,
@@ -107,6 +108,8 @@ import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component
     OsbTextComponent,
     FjOsbSideMenuComponent,
     FjOsbHebComponent
+     
+    
   ],
   imports: [
     BrowserModule,
@@ -121,7 +124,10 @@ import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component
     MatListModule,
     MatSidenavModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
+    
+    
 
   ],
   providers: [Hardwood],

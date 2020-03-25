@@ -11,9 +11,24 @@ sendChoiceToParent(value:string){
   this.stringOutput.emit(value);
 }
 
+clearFjBtnFontweight() {
+  let element: HTMLElement = document.getElementsByClassName('fj-btn')[0] as HTMLElement;
+  element.style.fontWeight = '400';
+}
+
+boldFjBtnFontWeight() {
+  let element: HTMLElement = document.getElementsByClassName('fj-btn')[0] as HTMLElement;
+  element.style.fontWeight = '700';
+}
+
+
   constructor() { }
 
   ngOnInit(): void {
+    // mouse click by element - In this case to load Twin as the first choice
+    let element: HTMLElement = document.getElementsByClassName('fj-btn')[0] as HTMLElement;
+    element.click();
+    element.style.fontWeight = '700';
   }
 
 }

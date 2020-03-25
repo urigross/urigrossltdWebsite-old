@@ -9,9 +9,10 @@
     }
     
     div img {
-        padding-right: 0px;
-        padding-left: 0px;
+        
+        margin: -13% 0 -8% 0;
         width: 100%;
+        
     }   
   }
 
