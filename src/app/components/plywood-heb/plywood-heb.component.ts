@@ -10,7 +10,7 @@ export class PlywoodHebComponent implements OnInit {
   imageName: string;
   getChildEvent($event){
     this.imageName=$event;
-    this.fadeIn();
+    this.fadeIn();   // I think there is a problem with asyc/promises here. I whould study this and fix the problem. 
   }
 
   fadeIn():void{
