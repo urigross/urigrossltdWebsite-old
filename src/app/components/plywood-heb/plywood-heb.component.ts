@@ -10,10 +10,10 @@ export class PlywoodHebComponent implements OnInit {
   imageName: string;
   getChildEvent($event){
     this.imageName=$event;
-    this.fadeOut();
+    this.fadeIn();
   }
 
-  fadeOut():void{
+  fadeIn():void{
     document.getElementById("image").animate([
       // keyframes
        { opacity: 0},

@@ -61,6 +61,7 @@ import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component
 
 
 
+
 @NgModule({
   declarations: [
     LayoutComponent,
@@ -110,23 +111,24 @@ import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component
     
   ],
   imports: [
-    BrowserModule,
     RoutingModule,
     RouterModule,
-    BrowserAnimationsModule,
     MatInputModule,
     MatButtonModule,
     MatCheckboxModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
     MatIconModule,
     MatToolbarModule,
     MatListModule,
     MatSidenavModule,
     NgbModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+      
     
     
-
   ],
   providers: [Hardwood],
   bootstrap: [LayoutComponent]
