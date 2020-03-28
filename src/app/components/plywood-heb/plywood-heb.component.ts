@@ -10,8 +10,20 @@ export class PlywoodHebComponent implements OnInit {
   imageName: string;
   getChildEvent($event){
     this.imageName=$event;
+    this.fadeOut();
   }
-  
+
+  fadeOut():void{
+    document.getElementById("image").animate([
+      // keyframes
+       { opacity: 0},
+       { opacity: 1}
+    ], { 
+      duration: 2000,
+    });
+  }
+
+
   constructor() { }
   
   ngOnInit() {

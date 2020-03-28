@@ -1,4 +1,5 @@
-<ngb-carousel class="carousel" #carousel interval="7000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+<div class="background-wallpaper"></div>
+<ngb-carousel class="carousel" #carousel interval="4000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
     <ng-template ngbSlide *ngFor="let img of images; index as i">
         <div class="wood-text" *ngIf="imageNames[i]==='אגוז אפריקאי';">
             <text-style1-container>
@@ -66,6 +67,7 @@
                 <app-european-oak></app-european-oak>
             </text-style1-container>
         </div>
+        <!-- image name tag -->
         <div class="carousel-caption">
             <h3>{{imageNames[i]}}</h3>
         </div>
@@ -74,4 +76,3 @@
         </div>
     </ng-template>
 </ngb-carousel>
-<h3></h3>

@@ -12,8 +12,19 @@ export class MdfHebComponent implements OnInit {
   getChildEvent($event){
     this.imageName = $event;
     this.imageNameWithExt=this.imageName.concat(".jpg");
+    this.fadeOut();
   }
   
+  fadeOut():void{
+    document.getElementById("image").animate([
+      // keyframes
+       { opacity: 0},
+       { opacity: 1}
+    ], { 
+      duration: 2000,
+    });
+  }
+
 
 constructor() { }
 

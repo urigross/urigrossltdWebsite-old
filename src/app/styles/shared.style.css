@@ -1,9 +1,32 @@
 :host /deep/p { 
     color: black;
+    padding-bottom: 2em;
 }
 :host /deep/div{
     padding-top: 1.5rem;
+    animation-name: fadeInAnimation;
+    animation-duration: 5s;
+}
+
+:host /deep/p:nth-child(1){
+    margin-top: 2em;
+    text-align: center;
+    line-height: 1.5em;
 }
 :host /deep/p:nth-child(2){
     font-weight: 600;
 }
+
+:host /deep/h2{
+        animation-name: fadeInAnimation;
+        animation-duration: 5s;
+   
+}
+
+
+@keyframes fadeInAnimation {
+    from { opacity: 0;}
+    to { opacity: 1;}
+
+}
+
