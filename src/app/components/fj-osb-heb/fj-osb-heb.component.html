@@ -15,6 +15,6 @@
         </text-style1-container>
     </div>
 </article>
-<div class="image-box" *ngIf="imageName;">
+<div class="image-box" [style.display]="imageName? 'block' : 'none'">
     <img class="image" src="../../../assets/images/butcher-osb/{{imageName}}.jpg" alt="{{imageName}} plywood">
 </div>

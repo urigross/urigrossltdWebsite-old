@@ -11,13 +11,17 @@
 :host /deep/p:nth-child(1){
     margin-top: 2em;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 :host /deep/p:nth-child(2){
     font-weight: 600;
+    line-height: 2em;
+    text-align: center;
+
 }
 
 :host /deep/h2{
+    text-align: center;
         animation-name: fadeInAnimation;
         animation-duration: 5s;
    

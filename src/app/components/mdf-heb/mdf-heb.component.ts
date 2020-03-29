@@ -1,34 +1,27 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-mdf-heb',
   templateUrl: './mdf-heb.component.html',
   styleUrls: ['./mdf-heb.component.css']
 })
-export class MdfHebComponent implements OnInit {
+export class MdfHebComponent  {
   imageName: string;
   imageNameWithExt: string;
   //Todo: make mdf images more attractive , fill text and align elements
   getChildEvent($event){
     this.imageName = $event;
     this.imageNameWithExt=this.imageName.concat(".jpg");
-    // this.fadeOut();
+    this.fadeOut();
   }
   
-  // fadeOut():void{
-  //   document.getElementById("image").animate([
-  //     // keyframes
-  //      { opacity: 0},
-  //      { opacity: 1}
-  //   ], { 
-  //     duration: 2000,
-  //   });
-  // }
-
-
-constructor() { }
-
-ngOnInit() {
-}
-
+  fadeOut():void{
+    document.getElementById("image").animate([
+      // keyframes
+       { opacity: 0},
+       { opacity: 1}
+    ], { 
+      duration: 2000,
+    });
+  }
 }

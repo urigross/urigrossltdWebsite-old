@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-plywood-heb',
@@ -9,7 +9,6 @@ export class PlywoodHebComponent {
   imageName: string;
   getChildEvent($event) {
     this.imageName = $event;
-    console.log(`value is: `+document.getElementById('image').id);
    this.fadeIn();    
   }
   fadeIn(): void {

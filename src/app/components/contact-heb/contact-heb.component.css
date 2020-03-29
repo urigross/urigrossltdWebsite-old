@@ -20,6 +20,8 @@
   background: url("../../../assets/images/backgrounds/contact/euro-oak.jpg");
   background-size: cover;
   background-attachment: fixed;
+  animation-name: fadeInAnimation;
+  animation-duration: 5s;
 
 }
 
@@ -138,3 +140,11 @@ mat-error{
   color: black;
   margin-left: 1em;
 }
+
+
+@keyframes fadeInAnimation {
+  from { opacity: 0;}
+  to { opacity: 1;}
+  }
+  
+  

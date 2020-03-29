@@ -2,7 +2,7 @@
   margin-top: 0%;
   height: 100%;
   animation-duration: 2s;
-  animation-name: jumpinAnimation;
+  animation-name: jumpinMenuAnimation;
 }
 .menu-buttons, .menu-logo{
   box-sizing: border-box;
@@ -42,10 +42,10 @@ li a
 
 .phone-button{
   position: absolute;
-  top:7.3vh;
-  right: 62vw;
+  margin-top: -1vh;
+  right: 55vw;
   animation-duration: 2s;
-  animation-name: jumpinAnimation;
+  animation-name: jumpinButtonAnimation;
 }
 
 .phone a {
@@ -104,11 +104,16 @@ li a
 
   img{
         float: right;
-        padding-top: 1.5em;
-        padding-bottom: 1.5em;
+        padding-top: 2em;
   }
   
-@keyframes jumpinAnimation {
-  0% {margin-top: -10%; opacity: 0;}
-  100% {margin-top: 0%; opacity: 1;}
+@keyframes jumpinButtonAnimation {
+  0% {top: 0vh; opacity: 0;}
+  100% {top: 10.1vh; opacity: 1;}
+}
+
+
+@keyframes jumpinMenuAnimation {
+  0% {margin-top: -10vh; opacity: 0;}
+  100% {margin-top: 0vh; opacity: 1;}
 }

@@ -5,16 +5,23 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './fj-osb-heb.component.html',
   styleUrls: ['./fj-osb-heb.component.css']
 })
-export class FjOsbHebComponent implements OnInit {
+export class FjOsbHebComponent {
   imageName:string;
   getChildEvent($event){
     this.imageName=$event;
     console.log("imagename: "+this.imageName);
+    this.fadeOut();
+
   }
 
-  constructor() { }
-
-  ngOnInit(): void {
+  fadeOut():void{
+    document.getElementById("image").animate([
+      // keyframes
+       { opacity: 0},
+       { opacity: 1}
+    ], { 
+      duration: 2000,
+    });
   }
 
 }

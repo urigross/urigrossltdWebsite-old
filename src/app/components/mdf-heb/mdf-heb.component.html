@@ -23,7 +23,7 @@
         </text-style1-container>
     </div>
 </article>
-<div class="image-box" *ngIf="imageNameWithExt;">
+<div class="image-box" [style.display]="imageName? 'block' : 'none'">
     <text-style1-container>
         <img id="image" src="../../../assets/images/mdf/{{imageNameWithExt}}" alt="{{imageName}} mdf">
     </text-style1-container>
