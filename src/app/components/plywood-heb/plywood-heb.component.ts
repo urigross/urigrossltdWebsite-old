@@ -1,33 +1,25 @@
 import { Component, OnInit } from '@angular/core';
 
-
 @Component({
   selector: 'app-plywood-heb',
   templateUrl: './plywood-heb.component.html',
   styleUrls: ['./plywood-heb.component.css']
 })
-export class PlywoodHebComponent implements OnInit {
+export class PlywoodHebComponent {
   imageName: string;
-  getChildEvent($event){
-    this.imageName=$event;
-    this.fadeIn();   // I think there is a problem with asyc/promises here. I whould study this and fix the problem. 
+  getChildEvent($event) {
+    this.imageName = $event;
+    console.log(`value is: `+document.getElementById('image').id);
+   this.fadeIn();    
   }
-
-  fadeIn():void{
+  fadeIn(): void {
     document.getElementById("image").animate([
       // keyframes
-       { opacity: 0},
-       { opacity: 1}
-    ], { 
+      { opacity: '0' },
+      { opacity: '1' }
+    ], {
       duration: 2000,
     });
   }
-
-
-  constructor() { }
   
-  ngOnInit() {
-    
-  }
-
 }

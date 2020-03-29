@@ -2,41 +2,31 @@
     box-sizing: border-box;
     float: right;
 }
-
 .sidebar, .image-box, .description-text{
     text-align: right;
     padding-top: 150px;
 }
-
 .sidebar{
     width: 15%; /*control the total width of the sidemenu */
     padding-right: 50px;
 }
-
-
-
 .image-box, .description-text {
     width: 40%;
-
 }
-
 .image-box{
     margin-top: 2rem;
-
 }
-
 img{
     width: 50%;
     padding-right: 100px;
+    /* fading in animation for autoran plywood route */
     animation-name: fadeInAnimation;
     animation-duration: 5s;
 }
-
 .decription-text{
     text-align: right;
     padding-right: 100px;
 }
-
 @keyframes fadeInAnimation {
 from { opacity: 0;}
 to { opacity: 1;}

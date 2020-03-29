@@ -20,6 +20,7 @@
         </text-style1-container>
     </div>
 </article>
-<div class="image-box" *ngIf="imageName;">
+<div class="image-box" [style.display]="imageName? 'block' : 'none'">
+    <!-- "image" id element is fading in using the typescript but has errors on chrome developer mode -->
     <img id="image" src="../../../assets/images/plywoods/{{imageName}}-plywood.jpg" alt="{{imageName}} plywood">
 </div>
