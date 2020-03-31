@@ -1,6 +1,6 @@
 .menu-wrapper{
-  margin-top: 0%;
-  height: 100%;
+  margin-top: 0vh;
+  height: 100vh;
   animation-duration: 2s;
   animation-name: jumpinMenuAnimation;
 }
@@ -12,18 +12,18 @@
 
 .menu-buttons
 {
-  width: 60%;
+  width: 60vw;
   text-align: right;
   list-style-type: none;
   overflow: visible;
-  margin-right: 10%;
-  padding-top: 4.5%;
+  margin-right: 10vw;
+  padding-top: 9.5vh;
   font-size: 1.3em;
 }
 
 .menu-logo{
-  margin-top: -0.9%;
-  width: 25%;
+  margin-top: -1.7vh;
+  width: 25vw;
 }
 
 li
@@ -42,8 +42,8 @@ li a
 
 .phone-button{
   position: absolute;
-  margin-top: -1vh;
-  right: 55vw;
+  margin-top: -0.6vh;
+  right: 55vw+50%;
   animation-duration: 2s;
   animation-name: jumpinButtonAnimation;
 }
@@ -109,7 +109,7 @@ li a
   
 @keyframes jumpinButtonAnimation {
   0% {top: 0vh; opacity: 0;}
-  100% {top: 10.1vh; opacity: 1;}
+  100% {top: 9.4vh; opacity: 1;}
 }
 
 
