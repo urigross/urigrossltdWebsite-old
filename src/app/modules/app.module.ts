@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { LayoutComponent } from '../components/layout/layout.component';
 import { HomeHebComponent } from '../components/home-heb/home-heb.component';
 import { FooterComponent } from '../components/footer/footer.component';
-import { GalleryComponent } from '../components/gallery/gallery.component';
 import { AboutHebComponent } from '../components/about-heb/about-heb.component';
 import { ContactHebComponent } from '../components/contact-heb/contact-heb.component';
 import { MenuComponent } from '../components/menu/menu.component';
@@ -62,12 +61,12 @@ import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component
 
 
 
+
 @NgModule({
   declarations: [
     LayoutComponent,
     HomeHebComponent,
     FooterComponent,
-    GalleryComponent,
     AboutHebComponent,
     ContactHebComponent,
     MenuComponent,
@@ -112,23 +111,24 @@ import { FjOsbHebComponent } from '../components/fj-osb-heb/fj-osb-heb.component
     
   ],
   imports: [
-    BrowserModule,
     RoutingModule,
     RouterModule,
-    BrowserAnimationsModule,
     MatInputModule,
     MatButtonModule,
     MatCheckboxModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
     MatIconModule,
     MatToolbarModule,
     MatListModule,
     MatSidenavModule,
     NgbModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+      
     
     
-
   ],
   providers: [Hardwood],
   bootstrap: [LayoutComponent]

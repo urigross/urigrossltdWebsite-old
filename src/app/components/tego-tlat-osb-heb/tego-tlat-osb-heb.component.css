@@ -27,6 +27,9 @@
 img{
     width: 50%;
     padding-right: 100px;
+    animation-name: fadeInAnimation;
+    animation-duration: 5s;
+
 }
 
 .decription-text{
@@ -34,3 +37,9 @@ img{
     padding-right: 100px;
 }
 
+@keyframes fadeInAnimation {
+    from { opacity: 0;}
+    to { opacity: 1;}
+    }
+    
+    

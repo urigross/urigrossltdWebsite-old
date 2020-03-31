@@ -21,3 +21,17 @@ a:hover{
 }
 
 
+h2, div{
+  animation-name: fadeInAnimation;
+  animation-duration: 5s;
+
+}
+
+
+@keyframes fadeInAnimation {
+from { opacity: 0;}
+to { opacity: 1;}
+
+}
+
+

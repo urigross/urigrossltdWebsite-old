@@ -1,38 +1,64 @@
-.carousel{
-    box-sizing: border-box;
-    float: right;
-    width: 100%;
-    margin-top: 15%;
-    height: 80%;
-}
+/* .background-wallpaper{
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: url("../../../assets/images/backgrounds/contact/euro-oak.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 
-.wood-text{
+} */
+.carousel, .wood-text, img{
   box-sizing: border-box;
   float: right;
-  margin-top: 5%;
-  text-align: center;
-  width: 50%;
 }
-img{
-    float: right;
-    width: 30%;
+.carousel{
+  height: 100vh;
+  width: 100vw;
+}
+
+  .wood-text{ 
+  margin-top: 30vh;
+  margin-right: 14vw;
+  text-align: center;
+  width: 47vw;
+}
+
+.img-wrapper, img{
+  height: 50vh;
+}
+
+.img-wrapper{
+  margin-right: 0vw;
+  margin-top: 30vh;
+
+}
+img{ 
+    height: 50vh;
+    margin-right: 5vh;
     animation-duration: 1.4s;
     animation-name: cf3FadeInOut;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infnite;
-    animation-direction: alternate;     
+    animation-direction: alternate;
 }
 
 .carousel-caption{
-  width: 100%;
-  padding-right: 35%;
+  width: 30vw;
+  margin-right: 45vw;
+  text-align: center;
 }
 
-.carousel-caption h3{
-
-  width: 46%;
-
+.left-arrow{
+  position: absolute;
+  top: 30vh;
+  left: 2vw;
 }
+
+
+
 @keyframes cf3FadeInOut {
     0% {
       opacity:0.3;
@@ -45,4 +71,5 @@ img{
     }
   }
 
- 
+  
+

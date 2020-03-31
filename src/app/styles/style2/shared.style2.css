@@ -7,6 +7,8 @@
     margin-right: 0px;
     padding: 0;
     overflow: visible;
+    animation-name: fadeInAnimation;
+    animation-duration: 5s;
     }
     :host /deep/li
     {

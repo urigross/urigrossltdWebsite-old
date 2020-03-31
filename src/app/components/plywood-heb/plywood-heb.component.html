@@ -1,23 +1,26 @@
 <nav class="sidebar">
     <text-style2-container>
-    <app-plywood-side-navbar (stringOutput)=getChildEvent($event)></app-plywood-side-navbar>
+        <app-plywood-side-navbar (stringOutput)=getChildEvent($event)></app-plywood-side-navbar>
     </text-style2-container>
 </nav>
-<div class="description-text" *ngIf="imageName=='twin';">
-    <text-style1-container>
-        <app-twin-heb></app-twin-heb>
-    </text-style1-container>
-</div>
-<div class="description-text" *ngIf="imageName=='okoume';">
-    <text-style1-container>
-        <app-okoume-heb></app-okoume-heb>
-    </text-style1-container>
-</div>
-<div class="description-text" *ngIf="imageName=='birch';">
-    <text-style1-container>
-        <app-birch-heb></app-birch-heb>
-    </text-style1-container>
-</div>
-<div class="image-box" *ngIf="imageName;">
-    <img class="image" src="../../../assets/images/plywoods/{{imageName}}-plywood.jpg" alt="{{imageName}} plywood">
+<article>
+    <div class="description-text" *ngIf="imageName=='twin';">
+        <text-style1-container>
+            <app-twin-heb></app-twin-heb>
+        </text-style1-container>
+    </div>
+    <div class="description-text" *ngIf="imageName=='okoume';">
+        <text-style1-container>
+            <app-okoume-heb></app-okoume-heb>
+        </text-style1-container>
+    </div>
+    <div class="description-text" *ngIf="imageName=='birch';">
+        <text-style1-container>
+            <app-birch-heb></app-birch-heb>
+        </text-style1-container>
+    </div>
+</article>
+<div class="image-box" [style.display]="imageName? 'block' : 'none'">
+    <!-- "image" id element is fading in using the typescript but has errors on chrome developer mode -->
+    <img id="image" src="../../../assets/images/plywoods/{{imageName}}-plywood.jpg" alt="{{imageName}} plywood">
 </div>

@@ -1,3 +1,8 @@
+#about, .background-crop{
+    animation-name: fadeInAnimation ;
+    animation-duration: 5s;
+}
+
 #about{
     position: static;
     text-align: right;
@@ -17,4 +22,10 @@
 div img {
     width: 100%;
     height: 100px;
+}
+
+@keyframes fadeInAnimation {
+    from { opacity: 0;}
+    to { opacity: 1;}
+
 }

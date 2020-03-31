@@ -1,6 +1,17 @@
-div{
+/* div{
     padding-top: 1.5rem;
 }
 p:nth-child(2){
     font-weight: 600;
 }
+
+h2{
+    animation-name: fadeInAnimation;
+    animation-duration: 5s;
+}
+
+@keyframes fadeInAnimation {
+    from { opacity: 0;}
+    to { opacity: 1;}
+
+} */

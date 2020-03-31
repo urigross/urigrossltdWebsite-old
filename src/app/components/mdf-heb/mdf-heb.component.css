@@ -1,6 +1,7 @@
 .sidebar, .image-box, .description-text, img{
     box-sizing: border-box;
     float: right;
+    /* todo: check if the total height is 100%  and then go back to hardwoods */
 }
 
 .sidebar, .image-box, .description-text{
@@ -9,7 +10,7 @@
 }
 
 .sidebar{
-    width: 15%; /*control the total width of the sidemenu */
+    width: 15%; 
     padding-right: 50px;
 }
 
@@ -26,7 +27,10 @@
 
 img{
     width: 50%;
-    padding-right: 100px;
+    padding-right: 100px;    
+    animation-name: fadeInAnimation;
+    animation-duration: 5s;
+
 }
 
 .decription-text{
@@ -34,3 +38,9 @@ img{
     padding-right: 100px;
 }
 
+
+@keyframes fadeInAnimation {
+    from { opacity: 0;}
+    to { opacity: 1;}
+    }
+    
