@@ -1,5 +1,5 @@
 <div class="background-wallpaper">
-        <form ngNoForm action="mailto:ashdod@urigross.co.il" method="POST">
+        <form  id= "myform" ngNoForm action="mailto:ashdod@urigross.co.il;" method="POST">
         <h1>צור עמנו קשר</h1>
         <div class="first-name">
             <mat-form-field appearance="fill" class="first-name-line">
@@ -28,8 +28,12 @@
                 <input matInput type="email" name="email">
             </mat-form-field>
         </div>
-        <!-- <button>שלח</button> -->
-        <input class="submit" type="submit" value="שלח הודעה">
+        <!-- <input class="submit" type="submit" value="שלח הודעה"> -->
+        <!-- <input class="submit" type="submit" value="שלח הודעה"> -->
+        <button id="submit" mat-icon-button color="black" type="submit">
+            <mat-icon>send</mat-icon>
+        </button>
+
         <div class="contact-message-container">
             <mat-form-field appearance="fill" class="contact-message-line">
                 <mat-label>הודעה לשליחה</mat-label>
@@ -61,13 +65,3 @@
 </div>
 </div>
 
-<!-- here will be contact us info includes:
-
-email
-contact form
-telephones
-address 
-
-create a component  
-
--->
