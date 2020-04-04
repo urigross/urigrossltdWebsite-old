@@ -12,7 +12,7 @@
  }
 
  .map-responsive,.map-responsive iframe{
-     height: 72vh;
+     /* height: 72vh; */
  }
  .map-responsive{
      margin-top: 2vh;

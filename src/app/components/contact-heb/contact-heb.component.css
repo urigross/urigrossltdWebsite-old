@@ -59,7 +59,7 @@ mat-error{
   color: black;
 }
 
-.first-name, .last-name ,.telephone, .email-container, .contact-message-container, .submit{
+.first-name, .last-name ,.telephone, .email-container, .contact-message-container, #submit{
   position: absolute;
 }
 
@@ -115,7 +115,7 @@ mat-error{
 .contact-message-line {
   width: 200%;
 }
-.submit{
+#submit{
   top:82vh;
   right: 41vw;
   width: 10%;

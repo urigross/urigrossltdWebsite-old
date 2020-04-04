@@ -1,6 +1,5 @@
 .menu-wrapper{
-  margin-top: 0vh;
-  height: 100vh;
+  padding-top: 0vh;
   animation-duration: 2s;
   animation-name: jumpinMenuAnimation;
 }
